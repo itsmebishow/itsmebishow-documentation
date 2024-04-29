@@ -1,0 +1,107 @@
+site_name: itsmebishowthapa
+site_url: https://itsmebishow.github.io
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.tabs.sticky
+    - header.autohide
+    - navigation.footer
+    - content.code.copy
+    - content.code.select
+
+plugins:
+  - blog
+  - mkdocs-video
+  - glightbox:
+      auto_caption: true
+  - tags:
+      tags_file: tags.md
+
+extra:
+  mailto: itsmebishowthapa@gmail.com
+  tags:
+    Compatibility: compat
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - def_list
+  - md_in_html
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+      use_pygments: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.details
+
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+
+nav:
+  - index.md
+  - Blog:
+    - blog/index.md
+
+  - Git:
+      - "Intro": "git/intro.md"
+      - "Git": "git/git.md"
+      - "Vite": "git/vite.md"
+      - "tmux": "git/tmux.md"
+      - "Gitlab": "git/gitlab.md"
+
+
+  - Career:
+      - Developer: "career/developer-plan.md"
+      - Roadmap: "career/study-technique.md"
+      - Certification: "career/python-certification.md"
+      - Tech Stack: "career/tech-stack.md"
+      - Interview Question:
+        - "Terminology": "interviewquestion/terminology.md"
+        - "JavaScript": "interviewquestion/javascript.md"
+        - "React": "interviewquestion/react.md"
+        - "Django": "interviewquestion/django.md"
+
+  - Video:
+      - Intro: "video/vid.md"
+
+  - Research:
+      - "AI": "research/ai.md"
+      - "Bootstrap": "research/bootstrap.md"
+      - "Wordpress": "research/wordpress.md"
+      - "Micro-Frontend": "research/micro-frontend.md"
+      - "prevent default": "research/js-prevent-default.md"
+      - "Tips & Tricks": "research/tricks.md"
+      - "Rabbitmq": "research/rabbitmq.md"
+      - "Rabbitmq & Celery": "research/rabbitmq-celery.md"
+      - "Redis": "research/redis.md"
+      - "Reference": "research/reference.md"
+
+  - More:
+      - Introduction: "more/intro.md"
+      
+      - Mkdocs:
+          - "Basic": "more/mkdocs/01-advanced-mkdocs.md"
+          - "Advanced": "more/mkdocs/02-advanced-mkdocs.md"
+
+      - Books:
+          - "Tech Books": "more/books/tech-books.md"
+          - "Pocker Devops": "more/books/pocket-devops.md"
+          - "Jenkins Guide": "more/books/jenkins-guide.md"
+          - "Docker yml": "more/books/docker-compose.md"
+
+      - Debian: "more/linux/debian.md"
