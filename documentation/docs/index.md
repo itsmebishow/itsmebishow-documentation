@@ -1,19 +1,15 @@
 #  Home
 
-## Welcome to MkDocs
+<div class="grid cards" markdown>
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+- :simple-git: **[Git](./git/git.md)**
 
-## Commands
+- :airplane_small: **[Career](./career/developer-plan.md)**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+- :simple-tmux: **[tmux](./git/tmux.md)**
 
-## Project layout
+- :octicons-video-24: **[Video](./video/vid.md)**
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- :material-text-search: **[Research](./research/ai.md)**
+
+</div>
