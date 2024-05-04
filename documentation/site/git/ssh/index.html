@@ -8,25 +8,25 @@
       
       
       
-        <link rel="canonical" href="https://itsmebishow.github.io/blog/2024/01/17/mastering-collaboration-a-guide-to-git-branching-strategies/">
+        <link rel="canonical" href="https://itsmebishow.github.io/git/ssh/">
       
       
-        <link rel="prev" href="../../15/how-to-pull-all-branches-from-a-remote-repository-in-github-/">
+        <link rel="prev" href="../tricks/">
       
       
-        <link rel="next" href="../../21/managing-multiple-ssh-keys-for-secure-and-efficient-remote-access/">
+        <link rel="next" href="../resource/">
       
       
-      <link rel="icon" href="../../../../../assets/images/favicon.png">
+      <link rel="icon" href="../../assets/images/favicon.png">
       <meta name="generator" content="mkdocs-1.6.0, mkdocs-material-9.5.20">
     
     
       
-        <title>Mastering Collaboration: A Guide to Git Branching Strategies - itsmebishowthapa</title>
+        <title>ssh - itsmebishowthapa</title>
       
     
     
-      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.66ac8b77.min.css">
+      <link rel="stylesheet" href="../../assets/stylesheets/main.66ac8b77.min.css">
       
       
 
@@ -45,14 +45,14 @@
       
     
     
-    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce((e,_)=>(e<<5)-e+_.charCodeAt(0),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
     
     
     
-   <link href="../../../../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
+   <link href="../../assets/stylesheets/glightbox.min.css" rel="stylesheet"/><style>
     html.glightbox-open { overflow: initial; height: 100%; }
     .gslide-title { margin-top: 0px; user-select: text; }
     .gslide-desc { color: #666; user-select: text; }
@@ -61,7 +61,7 @@
     .gdesc-inner { font-size: 0.75rem; }
     body[data-md-color-scheme="slate"] .gdesc-inner { background: var(--md-default-bg-color);}
     body[data-md-color-scheme="slate"] .gslide-title { color: var(--md-default-fg-color);}
-    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../../../../assets/javascripts/glightbox.min.js"></script></head>
+    body[data-md-color-scheme="slate"] .gslide-desc { color: var(--md-default-fg-color);}</style> <script src="../../assets/javascripts/glightbox.min.js"></script></head>
   
   
     <body dir="ltr">
@@ -73,7 +73,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#mastering-collaboration-a-guide-to-git-branching-strategies" class="md-skip">
+        <a href="#ssh" class="md-skip">
           Skip to content
         </a>
       
@@ -89,7 +89,7 @@
 
 <header class="md-header md-header--shadow md-header--lifted" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../../../.." title="itsmebishowthapa" class="md-header__button md-logo" aria-label="itsmebishowthapa" data-md-component="logo">
+    <a href="../.." title="itsmebishowthapa" class="md-header__button md-logo" aria-label="itsmebishowthapa" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -109,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Mastering Collaboration: A Guide to Git Branching Strategies
+              ssh
             
           </span>
         </div>
@@ -133,13 +133,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../../../../" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../blog/" class="md-tabs__link">
           
   
   Blog
@@ -153,11 +151,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../../../../git/intro/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../intro/" class="md-tabs__link">
           
   
   Git
@@ -175,7 +175,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../../career/developer-plan/" class="md-tabs__link">
+        <a href="../../career/developer-plan/" class="md-tabs__link">
           
   
   Career
@@ -193,7 +193,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../../video/vid/" class="md-tabs__link">
+        <a href="../../video/vid/" class="md-tabs__link">
           
   
   Video
@@ -211,7 +211,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../../research/ai/" class="md-tabs__link">
+        <a href="../../research/ai/" class="md-tabs__link">
           
   
   Research
@@ -229,7 +229,7 @@
     
     
       <li class="md-tabs__item">
-        <a href="../../../../../more/intro/" class="md-tabs__link">
+        <a href="../../more/intro/" class="md-tabs__link">
           
   
   More
@@ -257,9 +257,7 @@
           
             
               
-                
-              
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -270,7 +268,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../../../.." title="itsmebishowthapa" class="md-nav__button md-logo" aria-label="itsmebishowthapa" data-md-component="logo">
+    <a href="../.." title="itsmebishowthapa" class="md-nav__button md-logo" aria-label="itsmebishowthapa" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54Z"/></svg>
@@ -285,28 +283,23 @@
       
   
   
-    
   
   
-  
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_1" >
         
           
-          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="">
+          <label class="md-nav__link" for="__nav_1" id="__nav_1_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -317,7 +310,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_1">
             <span class="md-nav__icon md-icon"></span>
             Blog
@@ -328,14 +321,12 @@
                 
   
   
-    
-  
   
     
   
   
-    <li class="md-nav__item md-nav__item--active">
-      <a href="../../../../" class="md-nav__link">
+    <li class="md-nav__item">
+      <a href="../../blog/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -396,7 +387,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../archive/2024/" class="md-nav__link">
+      <a href="../../blog/archive/2024/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -429,23 +420,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -456,7 +452,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Git
@@ -470,7 +466,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../git/intro/" class="md-nav__link">
+      <a href="../intro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -491,7 +487,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../git/git/" class="md-nav__link">
+      <a href="../git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -512,7 +508,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../git/vite/" class="md-nav__link">
+      <a href="../vite/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -533,7 +529,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../git/tmux/" class="md-nav__link">
+      <a href="../tmux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -554,7 +550,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../git/gitlab/" class="md-nav__link">
+      <a href="../gitlab/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -575,7 +571,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../git/tricks/" class="md-nav__link">
+      <a href="../tricks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -593,10 +589,30 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../../../../git/ssh/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    ssh
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -605,6 +621,53 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-is-ssh-implemented-in-windows" class="md-nav__link">
+    <span class="md-ellipsis">
+      How is SSH implemented in Windows?
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#login-remote-with-ssh-key-based-authentication" class="md-nav__link">
+    <span class="md-ellipsis">
+      Login remote with SSH key-based authentication
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -617,7 +680,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../git/resource/" class="md-nav__link">
+      <a href="../resource/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -683,7 +746,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../career/developer-plan/" class="md-nav__link">
+      <a href="../../career/developer-plan/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -704,7 +767,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../career/study-technique/" class="md-nav__link">
+      <a href="../../career/study-technique/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -725,7 +788,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../career/python-certification/" class="md-nav__link">
+      <a href="../../career/python-certification/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -746,7 +809,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../career/tech-stack/" class="md-nav__link">
+      <a href="../../career/tech-stack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -805,7 +868,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../interviewquestion/terminology/" class="md-nav__link">
+      <a href="../../interviewquestion/terminology/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -826,7 +889,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../interviewquestion/javascript/" class="md-nav__link">
+      <a href="../../interviewquestion/javascript/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -847,7 +910,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../interviewquestion/react/" class="md-nav__link">
+      <a href="../../interviewquestion/react/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -868,7 +931,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../interviewquestion/django/" class="md-nav__link">
+      <a href="../../interviewquestion/django/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -942,7 +1005,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../video/vid/" class="md-nav__link">
+      <a href="../../video/vid/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1008,7 +1071,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/ai/" class="md-nav__link">
+      <a href="../../research/ai/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1029,7 +1092,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/bootstrap/" class="md-nav__link">
+      <a href="../../research/bootstrap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1050,7 +1113,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/wordpress/" class="md-nav__link">
+      <a href="../../research/wordpress/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1071,7 +1134,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/micro-frontend/" class="md-nav__link">
+      <a href="../../research/micro-frontend/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1092,7 +1155,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/js-prevent-default/" class="md-nav__link">
+      <a href="../../research/js-prevent-default/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1113,7 +1176,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/tricks/" class="md-nav__link">
+      <a href="../../research/tricks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1134,7 +1197,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/rabbitmq/" class="md-nav__link">
+      <a href="../../research/rabbitmq/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1155,7 +1218,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/rabbitmq-celery/" class="md-nav__link">
+      <a href="../../research/rabbitmq-celery/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1176,7 +1239,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/redis/" class="md-nav__link">
+      <a href="../../research/redis/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1197,7 +1260,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../research/reference/" class="md-nav__link">
+      <a href="../../research/reference/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1263,7 +1326,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/intro/" class="md-nav__link">
+      <a href="../../more/intro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1322,7 +1385,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/mkdocs/intro/" class="md-nav__link">
+      <a href="../../more/mkdocs/intro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1343,7 +1406,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/mkdocs/01-advanced-mkdocs/" class="md-nav__link">
+      <a href="../../more/mkdocs/01-advanced-mkdocs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1364,7 +1427,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/mkdocs/02-advanced-mkdocs/" class="md-nav__link">
+      <a href="../../more/mkdocs/02-advanced-mkdocs/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1431,7 +1494,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/books/tech-books/" class="md-nav__link">
+      <a href="../../more/books/tech-books/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1452,7 +1515,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/books/pocket-devops/" class="md-nav__link">
+      <a href="../../more/books/pocket-devops/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1473,7 +1536,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/books/jenkins-guide/" class="md-nav__link">
+      <a href="../../more/books/jenkins-guide/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1494,7 +1557,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/books/docker-compose/" class="md-nav__link">
+      <a href="../../more/books/docker-compose/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1523,7 +1586,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../../../more/linux/debian/" class="md-nav__link">
+      <a href="../../more/linux/debian/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1552,8 +1615,6 @@
             
             
               
-                
-              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -1573,63 +1634,18 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#what-are-git-branching-strategies" class="md-nav__link">
+  <a href="#how-is-ssh-implemented-in-windows" class="md-nav__link">
     <span class="md-ellipsis">
-      What are GIT branching strategies?
+      How is SSH implemented in Windows?
     </span>
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#1-feature-branching" class="md-nav__link">
+  <a href="#login-remote-with-ssh-key-based-authentication" class="md-nav__link">
     <span class="md-ellipsis">
-      1. Feature Branching
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#2-gitflow" class="md-nav__link">
-    <span class="md-ellipsis">
-      2. Gitflow
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#3-github-flow" class="md-nav__link">
-    <span class="md-ellipsis">
-      3. GitHub Flow
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#4-release-branching" class="md-nav__link">
-    <span class="md-ellipsis">
-      4. Release Branching
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#5-trunk-based-development" class="md-nav__link">
-    <span class="md-ellipsis">
-      5. Trunk-Based Development
-    </span>
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#conclusion" class="md-nav__link">
-    <span class="md-ellipsis">
-      Conclusion
+      Login remote with SSH key-based authentication
     </span>
   </a>
   
@@ -1653,185 +1669,73 @@
             
           
           
-  <div class="md-content md-content--post" data-md-component="content">
-    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
-      <div class="md-sidebar__scrollwrap">
-        <div class="md-sidebar__inner md-post">
-          <nav class="md-nav md-nav--primary">
-            <div class="md-post__back">
-              <div class="md-nav__title md-nav__container">
-                <a href="../../../../" class="md-nav__link">
-                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
-                  <span class="md-ellipsis">
-                    Back to index
-                  </span>
-                </a>
-              </div>
-            </div>
-            
-              <div class="md-post__authors md-typeset">
+            <div class="md-content" data-md-component="content">
+              <article class="md-content__inner md-typeset">
                 
-                  <div class="md-profile md-post__profile">
-                    <span class="md-author md-author--long">
-                      <img src="https://avatars.githubusercontent.com/u/25550945" alt="Bishow Thapa">
-                    </span>
-                    <span class="md-profile__description">
-                      <strong>
-                        
-                          Bishow Thapa
-                        
-                      </strong>
-                      <br>
-                      Creator
-                    </span>
-                  </div>
-                
-              </div>
-            
-            <ul class="md-post__meta md-nav__list">
-              <li class="md-nav__item md-nav__item--section">
-                <div class="md-post__title">
-                  <span class="md-ellipsis">
-                    Metadata
-                  </span>
-                </div>
-                <nav class="md-nav">
-                  <ul class="md-nav__list">
-                    <li class="md-nav__item">
-                      <div class="md-nav__link">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5v-5Z"/></svg>
-                        <time datetime="2024-01-17 00:00:00" class="md-ellipsis">January 17, 2024</time>
-                      </div>
-                    </li>
-                    
-                    
-                    
-                      
-                      <li class="md-nav__item">
-                        <div class="md-nav__link">
-                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7h1.5Z"/></svg>
-                          <span class="md-ellipsis">
-                            
-                              4 min read
-                            
-                          </span>
-                        </div>
-                      </li>
-                    
-                  </ul>
-                </nav>
-              </li>
-            </ul>
-          </nav>
-          
-        </div>
-      </div>
-    </div>
-    <article class="md-content__inner md-typeset">
-      
-        
-  
-  
-
-<nav class="md-tags" >
-  
-    
-    
-      
-      
-    
-    
-      <a href="../../../../../tags/#programming" class="md-tag md-tag-icon">Programming</a>
-    
-  
-</nav>
+                  
 
 
-
-<div><h1 id="mastering-collaboration-a-guide-to-git-branching-strategies">Mastering Collaboration: A Guide to Git Branching Strategies</h1>
-<p>Git, a powerful version control system, provides a variety of branching strategies to help development teams manage codebase changes, collaborate efficiently, and streamline the release process. Choosing the right branching strategy is crucial for maintaining code stability and facilitating collaboration within a team. In this blog post, we'll explore some common Git branching strategies and discuss their use cases.</p>
-<!-- more -->
-
-<h2 id="what-are-git-branching-strategies">What are GIT branching strategies?</h2>
-<p>GIT branching strategies are patterns or approaches that tech teams use to organize &amp; manage their code through different branches in a GIT system.</p>
-<p>Each strategy defines the rules &amp; guidelines for the creation, naming &amp; merging the branches for facilitating collaboration, stability, &amp; release management.</p>
-<p><a class="glightbox" href="https://assets-global.website-files.com/5ef788f07804fb7d78a4127a/60095db29f3c9d65476efdef_Git%20Branching%20strategies.png" data-type="image" data-width="auto" data-height="auto" data-title="git branching" data-desc-position="bottom"><img alt="git branching" src="https://assets-global.website-files.com/5ef788f07804fb7d78a4127a/60095db29f3c9d65476efdef_Git%20Branching%20strategies.png"></a></p>
-<h2 id="1-feature-branching">1. Feature Branching</h2>
-<p>Overview:</p>
-<p>Feature branching is a straightforward strategy where each new feature or user story is developed in its own branch. This approach isolates changes related to a specific feature, making it easier to manage and integrate.</p>
-<p><a class="glightbox" href="https://phoenixnap.com/kb/wp-content/uploads/2023/10/feature-branching-workflow.png" data-type="image" data-width="auto" data-height="auto" data-title="Feature Branching" data-desc-position="bottom"><img alt="Feature Branching" src="https://phoenixnap.com/kb/wp-content/uploads/2023/10/feature-branching-workflow.png"></a></p>
-<p>Workflow:</p>
-<ol>
-<li>Developers create a new branch for each feature (<code>feature/feature-name</code>).</li>
-<li>Work is done exclusively in the feature branch.</li>
-<li>Once the feature is complete and tested, it's merged into the main development branch (<code>develop</code> or <code>main</code>).</li>
-</ol>
-<p>Feature branching promotes parallel development and allows teams to work on multiple features simultaneously without interfering with each other.</p>
-<h2 id="2-gitflow">2. Gitflow</h2>
-<p>Overview:</p>
-<p>Gitflow is a branching model that defines specific branches for different purposes, emphasizing a structured and organized workflow.</p>
-<p><a class="glightbox" href="https://phoenixnap.com/kb/wp-content/uploads/2023/10/gitflow-workflow-example.png" data-type="image" data-width="auto" data-height="auto" data-title="Gitflow" data-desc-position="bottom"><img alt="Gitflow" src="https://phoenixnap.com/kb/wp-content/uploads/2023/10/gitflow-workflow-example.png"></a></p>
-<p>Branches:</p>
+<div><h1 id="ssh">SSH</h1>
+<div class="admonition success">
+<p class="admonition-title">Success</p>
+<p>GitHub typically uses the username <strong>git</strong> for SSH connections, regardless of your GitHub account username. This is because GitHub's SSH server <mark>recognizes you based on your SSH key</mark>, not your GitHub username.</p>
+</div>
+<h3 id="how-is-ssh-implemented-in-windows">How is SSH implemented in Windows?</h3>
+<p>There are two separate components of OpenSSH in Windows.</p>
 <ul>
-<li><code>main</code>: Represents the production-ready code.</li>
-<li><code>develop</code>: Integration branch for ongoing development.</li>
-<li><code>feature/*</code>: Feature branches for new features.</li>
-<li><code>release/*</code>: Branches for preparing releases.</li>
-<li><code>hotfix/*</code>: Branches for fixing critical issues in production.</li>
+<li>an SSH client &amp;</li>
+<li>an SSH server.</li>
 </ul>
-<p>Workflow:</p>
-<ol>
-<li>Developers work on feature branches.</li>
-<li>Features are merged into <code>develop</code> when complete.</li>
-<li>Releases are prepared in <code>release</code> branches.</li>
-<li>Hotfixes are handled in <code>hotfix</code> branches.</li>
-</ol>
-<p>Gitflow provides a clear separation of feature development, release preparation, and hotfixes, making it suitable for projects with scheduled releases.</p>
-<h2 id="3-github-flow">3. GitHub Flow</h2>
-<p>Overview:</p>
-<p>GitHub Flow is a lightweight, continuous delivery-oriented branching strategy, emphasizing simplicity and continuous integration.</p>
-<p><a class="glightbox" href="https://phoenixnap.com/kb/wp-content/uploads/2023/10/github-flow-workflow-example.png" data-type="image" data-width="auto" data-height="auto" data-title="GitHub Flow" data-desc-position="bottom"><img alt="GitHub Flow" src="https://phoenixnap.com/kb/wp-content/uploads/2023/10/github-flow-workflow-example.png"></a></p>
-<p>Workflow:</p>
-<ol>
-<li><code>main</code> is always deployable.</li>
-<li>Developers create a feature branch for each task.</li>
-<li>Feature branches are merged into <code>main</code> via pull requests.</li>
-<li>Continuous integration (CI) ensures the stability of the <code>main</code> branch.</li>
-</ol>
-<p>GitHub Flow focuses on small, frequent releases and encourages continuous delivery practices.</p>
-<h2 id="4-release-branching">4. Release Branching</h2>
-<p>Overview:</p>
-<p>Release branching involves creating branches specifically for releases, providing a controlled environment for final testing.</p>
-<p>Workflow:</p>
-<ol>
-<li>Develop new features in feature branches.</li>
-<li>Create a release branch when preparing for a release.</li>
-<li>Perform final testing on the release branch.</li>
-<li>Merge the release branch into <code>main</code> and tag the release.</li>
-</ol>
-<p>Release branching ensures that the <code>main</code> branch always contains stable code, and releases can be thoroughly tested before deployment.</p>
-<h2 id="5-trunk-based-development">5. Trunk-Based Development</h2>
-<p>Overview:</p>
-<p>Trunk-Based Development promotes development directly on the main branch, emphasizing small, frequent integrations.</p>
-<p><a class="glightbox" href="https://phoenixnap.com/kb/wp-content/uploads/2023/10/trunk-based-development-workflow.png" data-type="image" data-width="auto" data-height="auto" data-title="Trunk-Based Development" data-desc-position="bottom"><img alt="Trunk-Based Development" src="https://phoenixnap.com/kb/wp-content/uploads/2023/10/trunk-based-development-workflow.png"></a></p>
-<p>Workflow:</p>
-<ol>
-<li>Developers commit changes directly to the <code>main</code> branch.</li>
-<li>Small batches of changes are continuously integrated.</li>
-<li>Feature toggles or feature flags are used to hide incomplete features.</li>
-</ol>
-<p>Trunk-Based Development encourages developers to work on short-lived branches or directly on the main branch, enabling rapid releases and quick feedback loops.</p>
-<h2 id="conclusion">Conclusion</h2>
-<p>Choosing the right Git branching strategy is a critical decision that depends on factors such as team size, project complexity, release frequency, and collaboration needs. The strategies discussed here are just a starting point, and teams often adapt or combine them based on their unique requirements.</p>
-<p>Effective collaboration and version control are at the heart of successful software development. By mastering Git branching strategies, teams can navigate complex development workflows with confidence, ensuring a smooth and efficient collaborative coding experience. Whether it's feature branching, Gitflow, GitHub Flow, release branching, or trunk-based development, the key is to align the chosen strategy with the team's goals and project characteristics, ultimately leading to a more streamlined and effective development process.</p>
+<p>Microsoft implemented both in Windows using <code>OpenSSH Client</code> and <code>OpenSSH Server</code> respectively. And there are also two main methods to install and uninstall these components in Windows.
+<strong>The OpenSSH Client feature is installed by default in higher-end versions of Windows.</strong> The Client is like the functionality of Putty. It allows you to make ‘client’ connections to other servers and devices using various secure protocols.</p>
+<p>You can confirm if you have the client installed by opening a command prompt or PowerShell prompt and typing ‘ssh’ and hitting Enter.</p>
+<p><a class="glightbox" href="https://petri-media.s3.amazonaws.com/2021/11/Screenshot-2021-11-08-134530.png" data-type="image" data-width="auto" data-height="auto" data-title="ssh-diagram" data-desc-position="bottom"><img alt="ssh-diagram" src="https://petri-media.s3.amazonaws.com/2021/11/Screenshot-2021-11-08-134530.png"></a></p>
+<p><a href="https://petri.com/the-ultimate-guide-to-installing-openssh-on-windows/">for more information about ssh &amp; OpenSSH using PowerShell...</a></p>
+<p>If you dont find the optional feature, then go to</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>1. Setting
+</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>2. App
+</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>3. App &amp; Feature
+</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>3. search for optional feature
+</span></code></pre></div>
+<hr>
+<h2 id="login-remote-with-ssh-key-based-authentication">Login remote with SSH key-based authentication</h2>
+<p>To log in to an SSH remote server without entering a password, you can set up SSH key-based authentication. Here's a step-by-step guide to do that:</p>
+<div class="admonition tip">
+<p class="admonition-title">1. Generate SSH Key Pair: (if you don't have one already)</p>
+<div class="language-sh highlight"><span class="filename">bash</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>ssh-keygen<span class="w"> </span>-t<span class="w"> </span>rsa
+</span></code></pre></div>
+<p>This command will generate a new SSH key pair (<code>public</code> and <code>private</code>)</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">2. Copy the Public Key to the Remote Server:</p>
+<p>Use the <mark>ssh-copy-id</mark> command to copy your public key to the remote server. Replace <code>username</code> and <code>remote_host</code> with your username and the hostname or IP address of the remote server.</p>
+<div class="language-sh highlight"><span class="filename">bash</span><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>ssh-copy-id<span class="w"> </span>username@remote_host
+</span></code></pre></div>
+<p>You'll be prompted to enter your password for the remote server. After that, your public key will be added to the <code>~/.ssh/authorized_keys</code> file on the remote server.</p>
+</div>
+<div class="admonition tip">
+<p class="admonition-title">3. Test SSH Connection:</p>
+<p>Try to SSH into the remote server again. You should be able to log in without being prompted for a password:</p>
+<div class="language-sh highlight"><span class="filename">bash</span><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>ssh<span class="w"> </span>username@remote_host
+</span></code></pre></div>
+</div>
+<p>With <strong>SSH key-based authentication</strong> set up, you can now log in to your remote server <code>without entering a password</code>, provided you have the corresponding private key stored on your local machine.</p>
 <hr>
 <h2 id="reference">Reference</h2>
 <ul>
-<li><a href="https://www.engati.com/blog/git-branching-strategies">git branching strategies</a></li>
-<li><a href="https://phoenixnap.com/kb/git-branching-strategy">What Are Different Git Branching Strategies</a></li>
-<li><a href="https://css-tricks.com/branching-strategies-in-git/">Most Popular Branching Strategies in Git</a></li>
-</ul>
-<hr></div>
+<li><a href="https://www.atlassian.com/git/tutorials/git-ssh">What is a Git SSH Key? </a></li>
+<li><a href="https://www.digitalocean.com/community/tutorials/ssh-essentials-working-with-ssh-servers-clients-and-keys">SSH Essentials: Working with SSH Servers, Clients, and Keys</a></li>
+<li><a href="https://docs.github.com/en/authentication/connecting-to-github-with-ssh">Connecting to GitHub with SSH</a></li>
+<li><a href="https://petri.com/the-ultimate-guide-to-installing-openssh-on-windows/">The Ultimate Guide to Installing OpenSSH on Windows</a></li>
+<li>
+<p><a href="https://phoenixnap.com/kb/how-to-configure-docker-in-jenkins">jenkins guide</a></p>
+</li>
+<li>
+<p><a href="https://phoenixnap.com/kb/linux-ssh-commands">19 Common SSH Commands in Linux With Examples</a></p>
+</li>
+<li><a href="https://stationx.net/ssh-commands-cheat-sheet/">SSH Commands Cheat Sheet</a></li>
+<li><a href="https://www.marcobehler.com/guides/ssh-commands#_scp">13 must-know SSH Commands</a></li>
+</ul></div>
 
 
 
@@ -1839,20 +1743,15 @@
 
 
 
-  
-  
 
 
 
 
-  
 
-
-
-      
-    </article>
-  </div>
-
+                
+              </article>
+            </div>
+          
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -1869,12 +1768,10 @@
   
     
       
-        
-      
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../../15/how-to-pull-all-branches-from-a-remote-repository-in-github-/" class="md-footer__link md-footer__link--prev" aria-label="Previous: How to pull all branches from a remote repository in GitHub ?">
+          <a href="../tricks/" class="md-footer__link md-footer__link--prev" aria-label="Previous: tricks">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1884,20 +1781,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                How to pull all branches from a remote repository in GitHub ?
+                tricks
               </div>
             </div>
           </a>
         
         
           
-          <a href="../../21/managing-multiple-ssh-keys-for-secure-and-efficient-remote-access/" class="md-footer__link md-footer__link--next" aria-label="Next: Managing Multiple SSH Keys for Secure and Efficient Remote Access">
+          <a href="../resource/" class="md-footer__link md-footer__link--next" aria-label="Next: resource">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Managing Multiple SSH Keys for Secure and Efficient Remote Access
+                resource
               </div>
             </div>
             <div class="md-footer__button md-icon">
@@ -1931,10 +1828,10 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../../../..", "features": ["navigation.tabs", "navigation.top", "navigation.tabs.sticky", "header.autohide", "navigation.footer", "content.code.copy", "content.code.select"], "search": "../../../../../assets/javascripts/workers/search.b8dbb3d2.min.js", "tags": {"Compatibility": "compat"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    <script id="__config" type="application/json">{"base": "../..", "features": ["navigation.tabs", "navigation.top", "navigation.tabs.sticky", "header.autohide", "navigation.footer", "content.code.copy", "content.code.select"], "search": "../../assets/javascripts/workers/search.b8dbb3d2.min.js", "tags": {"Compatibility": "compat"}, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
     
     
-      <script src="../../../../../assets/javascripts/bundle.dd8806f2.min.js"></script>
+      <script src="../../assets/javascripts/bundle.dd8806f2.min.js"></script>
       
     
   <script>document$.subscribe(() => {const lightbox = GLightbox({"touchNavigation": true, "loop": false, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});})</script></body>
