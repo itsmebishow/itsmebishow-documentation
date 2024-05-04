@@ -64,7 +64,7 @@ nav:
       - "Vite": "git/vite.md"
       - "tmux": "git/tmux.md"
       - "Gitlab": "git/gitlab.md"
-      - "tricks" "git/tricks.md"
+      - "tricks": "git/tricks.md"
       - "ssh": "git/ssh.md"
       - "resource": "git/resource.md"
 
