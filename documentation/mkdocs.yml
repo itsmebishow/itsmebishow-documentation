@@ -82,6 +82,7 @@ nav:
 
   - Video:
       - Intro: "video/vid.md"
+      - Productivity: "video/productivity.md"
 
   - Research:
       - "AI": "research/ai.md"
@@ -92,7 +93,7 @@ nav:
       - "Tips & Tricks": "research/tricks.md"
       - "Rabbitmq": "research/rabbitmq.md"
       - "Rabbitmq & Celery": "research/rabbitmq-celery.md"
-      - "Redis": "research/redis.md"
+      - "css": "research/css.md"
       - "Reference": "research/reference.md"
 
   - More:
