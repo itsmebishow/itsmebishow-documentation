@@ -32,3 +32,13 @@ The major factors that are driving the AI force are the following:
 - Unsupervised learning
 - Reinforcement learning
 - Semi-supervised learning
+
+
+---
+
+## Defination
+
+
+### Monte Carlo simulation
+
+Monte Carlo simulation is a technique used to approximate the probability of an event by running the same simulation multiple times and averaging the results.

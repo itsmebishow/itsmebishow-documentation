@@ -87,14 +87,12 @@ nav:
 
   - Research:
       - "AI": "research/ai.md"
-      - "Bootstrap": "research/bootstrap.md"
-      - "Wordpress": "research/wordpress.md"
       - "Micro-Frontend": "research/micro-frontend.md"
+      - "Rabbitmq & Celery": "research/rabbitmq-celery.md"
+      - "Wordpress": "research/wordpress.md"
       - "prevent default": "research/js-prevent-default.md"
       - "Tips & Tricks": "research/tricks.md"
-      - "Rabbitmq": "research/rabbitmq.md"
-      - "Rabbitmq & Celery": "research/rabbitmq-celery.md"
-      - "css": "research/css.md"
+      - "CSS & Bootstrap": "research/css-bootstrap.md"
       - "Repositories": "research/repositories.md"
       - "Reference": "research/reference.md"
 
