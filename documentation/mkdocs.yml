@@ -53,20 +53,23 @@ markdown_extensions:
   - pymdownx.tilde
 
 nav:
-#   - index.md
-  
   - Blog:
       - blog/index.md
 
-  - Git:
-      - "Intro": "git/intro.md"
-      - "Git": "git/git.md"
-      - "Vite": "git/vite.md"
-      - "tmux": "git/tmux.md"
-      - "Gitlab": "git/gitlab.md"
-      - "tricks": "git/tricks.md"
-      - "ssh": "git/ssh.md"
-      - "resource": "git/resource.md"
+  - Tools:
+      - Intro: "tools/intro.md"
+      - Tmux:
+        - "tmux": "tools/tmux/tmux.md"
+      - SSH:
+        - "ssh": "tools/ssh/ssh.md"
+      - Git:
+        - "Intro": "tools/git/intro.md"
+        - "Git": "tools/git/git.md"
+        - "tmux": "tools/git/tmux.md"
+        - "Vite": "tools/git/vite.md"
+        - "Gitlab": "tools/git/gitlab.md"
+        - "tricks": "tools/git/tricks.md"
+        - "resource": "tools/git/resource.md"
 
 
   - Career:
@@ -75,10 +78,10 @@ nav:
       - Certification: "career/python-certification.md"
       - Tech Stack: "career/tech-stack.md"
       - Interview Question:
-        - "Terminology": "interviewquestion/terminology.md"
-        - "JavaScript": "interviewquestion/javascript.md"
-        - "React": "interviewquestion/react.md"
-        - "Django": "interviewquestion/django.md"
+        - "Terminology": "career/interviewquestion/terminology.md"
+        - "JavaScript": "career/interviewquestion/javascript.md"
+        - "React": "career/interviewquestion/react.md"
+        - "Django": "career/interviewquestion/django.md"
 
   - Video:
       - Intro: "video/vid.md"

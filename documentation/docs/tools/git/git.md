@@ -57,15 +57,52 @@ git pull origin main --rebase
 ## git blame `command`
 ## git grep `command`
 
+
+---
+
+
+To delete a branch on both your local repository and GitHub, you can follow these steps:
+
+## Deleting Locally:
+
+1.  Checkout a Different Branch:
+    
+    Before deleting the branch, ensure you're not currently on the branch you intend to delete. You can switch to another branch using:
+
+    ```bash
+    git checkout <different_branch>
+    ```
+
+
+2.  Delete the Branch: Use the following command to delete the branch locally:
+
+    ```bash
+    git branch -d <branch_name>
+    ```
+
+    If the branch has not been merged yet, you might need to use -D instead of -d to force delete.
+
+
+## Deleting on GitHub:
+
+3.  Push the Deletion: To delete the branch on GitHub, you need to push the deletion to the remote repository:
+
+    ```bash
+    git push origin --delete <branch_name>
+    ```
+
+    This command will delete the branch on GitHub (the origin remote).
+
+
+To delete a branch on both your `local` repository and `GitHub`, you can follow these steps:
+
+
 ---
 
 ## Reference
 
 - [Version Control with Git 3rd edition by Prem Kumar Ponuthorai & Jon Loeliger](https://www.amazon.com/Version-Control-Git-Collaborative-Development/dp/1492091197)
-
-
-Solved
-
+- Solved
 - [git divergent branches and need to specify how to reconcile them](https://ioflood.com/blog/solved-git-error-you-have-divergent-branches-and-need-to-specify-how-to-reconcile-them/)
 - [Git Error: You have divergent branches and need to specify how to reconcile them.](https://medium.com/@rajlaxmii/git-error-you-have-divergent-branches-and-need-to-specify-how-to-reconcile-them-75e97bd8abd2)
 - [Pulling without specifying how to reconcile divergent branches is discouraged](https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci)
