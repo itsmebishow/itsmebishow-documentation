@@ -66,7 +66,9 @@ With **SSH key-based authentication** set up, you can now log in to your remote 
 
 ---
 
-![SSH commands](../assets/video/GPygmfeXkAABEOX.jpeg)
+
+![SSH commands](../../assets/video/GPygmfeXkAABEOX.jpeg)
+
 
 ---
 

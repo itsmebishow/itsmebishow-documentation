@@ -2,11 +2,11 @@
 
 <div class="grid cards" markdown>
 
-- :simple-git: **[Git](./git/git.md)**
+- :simple-git: **[Git](./tools/git/git.md)**
 
 - :airplane_small: **[Career](./career/developer-plan.md)**
 
-- :simple-tmux: **[tmux](./git/tmux.md)**
+- :simple-tmux: **[tmux](./tools/tmux/tmux.md)**
 
 - :octicons-video-24: **[Video](./video/vid.md)**
 

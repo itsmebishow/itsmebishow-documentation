@@ -35,7 +35,7 @@ tmux runs a server/client architecture.
     ```
 
 
-![https://thevaluable.dev/tmux-config-mouseless/](../assets/tmux-working-diagram.png)
+![https://thevaluable.dev/tmux-config-mouseless/](../../assets/tmux-working-diagram.png)
 
 ## Installation
 
@@ -344,7 +344,7 @@ Default Commands for `Sessions`, `Windows`, and `Panes`
 
 ---
 
-![https://www.rffuste.com/2023/04/17/oh-my-tmux-mapheet/](../assets/tmux-cheatsheet.png)
+![https://www.rffuste.com/2023/04/17/oh-my-tmux-mapheet/](../../assets/tmux-cheatsheet.png)
 
 ## - tmux command mode
 

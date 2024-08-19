@@ -65,12 +65,13 @@ nav:
       - Git:
         - "Intro": "tools/git/intro.md"
         - "Git": "tools/git/git.md"
-        - "tmux": "tools/git/tmux.md"
         - "Vite": "tools/git/vite.md"
         - "Gitlab": "tools/git/gitlab.md"
         - "tricks": "tools/git/tricks.md"
         - "resource": "tools/git/resource.md"
 
+  - Native:
+      - Intro: "code/react-native/intro.md"
 
   - Career:
       - Developer: "career/developer-plan.md"
