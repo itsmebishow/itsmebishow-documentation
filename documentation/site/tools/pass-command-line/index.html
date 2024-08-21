@@ -8,13 +8,13 @@
       
       
       
-        <link rel="canonical" href="https://itsmebishow.github.io/research/js-prevent-default/">
+        <link rel="canonical" href="https://itsmebishow.github.io/tools/pass-command-line/">
       
       
-        <link rel="prev" href="../wordpress/">
+        <link rel="prev" href="../zsh/">
       
       
-        <link rel="next" href="../tricks/">
+        <link rel="next" href="../git/intro/">
       
       
       <link rel="icon" href="../../assets/images/favicon.png">
@@ -22,7 +22,7 @@
     
     
       
-        <title>prevent default - itsmebishowthapa</title>
+        <title>Pass Command Line - itsmebishowthapa</title>
       
     
     
@@ -72,6 +72,11 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
+        
+        <a href="#using-pass-password-store" class="md-skip">
+          Skip to content
+        </a>
+      
     </div>
     <div data-md-component="announce">
       
@@ -104,7 +109,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              prevent default
+              Pass Command Line
             
           </span>
         </div>
@@ -146,11 +151,13 @@
         
   
   
+    
+  
   
     
     
-      <li class="md-tabs__item">
-        <a href="../../tools/intro/" class="md-tabs__link">
+      <li class="md-tabs__item md-tabs__item--active">
+        <a href="../intro/" class="md-tabs__link">
           
   
   Tools
@@ -218,13 +225,11 @@
         
   
   
-    
-  
   
     
     
-      <li class="md-tabs__item md-tabs__item--active">
-        <a href="../ai/" class="md-tabs__link">
+      <li class="md-tabs__item">
+        <a href="../../research/ai/" class="md-tabs__link">
           
   
   Research
@@ -433,23 +438,28 @@
       
   
   
+    
   
   
+  
     
     
     
-      
-      
-    
-    
-    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+      
+      
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" checked>
         
           
-          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_2" id="__nav_2_label" tabindex="">
             
   
   <span class="md-ellipsis">
@@ -460,7 +470,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_2">
             <span class="md-nav__icon md-icon"></span>
             Tools
@@ -474,7 +484,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/intro/" class="md-nav__link">
+      <a href="../intro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -495,7 +505,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/tmux/tmux/" class="md-nav__link">
+      <a href="../tmux/tmux/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -516,7 +526,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/ssh/ssh/" class="md-nav__link">
+      <a href="../ssh/ssh/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -537,7 +547,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/zsh/" class="md-nav__link">
+      <a href="../zsh/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -555,10 +565,28 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../../tools/pass-command-line/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Pass Command Line
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -567,6 +595,93 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-pass-password-store" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using pass (Password Store)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using pass (Password Store)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storing-a-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storing a Password
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieving-a-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrieving a Password
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-passwords" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Passwords
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -579,7 +694,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/crobjob.md" class="md-nav__link">
+      <a href="../crobjob.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -638,7 +753,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/git/intro/" class="md-nav__link">
+      <a href="../git/intro/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -659,7 +774,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/git/git/" class="md-nav__link">
+      <a href="../git/git/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -680,7 +795,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/git/gitlab/" class="md-nav__link">
+      <a href="../git/gitlab/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -701,7 +816,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/git/tricks/" class="md-nav__link">
+      <a href="../git/tricks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -722,7 +837,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/git/resource/" class="md-nav__link">
+      <a href="../git/resource/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1230,28 +1345,23 @@
       
   
   
-    
   
   
-  
     
     
     
       
-        
-        
-      
       
     
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
         
           
-          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="">
+          <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1262,7 +1372,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6">
             <span class="md-nav__icon md-icon"></span>
             Research
@@ -1276,7 +1386,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../ai/" class="md-nav__link">
+      <a href="../../research/ai/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1297,7 +1407,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../micro-frontend/" class="md-nav__link">
+      <a href="../../research/micro-frontend/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1318,7 +1428,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../rabbitmq-celery/" class="md-nav__link">
+      <a href="../../research/rabbitmq-celery/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1339,7 +1449,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../wordpress/" class="md-nav__link">
+      <a href="../../research/wordpress/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1357,17 +1467,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../research/js-prevent-default/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1376,7 +1479,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -1389,7 +1491,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../tricks/" class="md-nav__link">
+      <a href="../../research/tricks/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1410,7 +1512,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../css-bootstrap/" class="md-nav__link">
+      <a href="../../research/css-bootstrap/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1431,7 +1533,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../repositories/" class="md-nav__link">
+      <a href="../../research/repositories/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1452,7 +1554,7 @@
   
   
     <li class="md-nav__item">
-      <a href="../reference/" class="md-nav__link">
+      <a href="../../research/reference/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -1817,6 +1919,83 @@
   
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#using-pass-password-store" class="md-nav__link">
+    <span class="md-ellipsis">
+      Using pass (Password Store)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Using pass (Password Store)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#installation" class="md-nav__link">
+    <span class="md-ellipsis">
+      Installation
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#setup" class="md-nav__link">
+    <span class="md-ellipsis">
+      Setup
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storing-a-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      Storing a Password
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#retrieving-a-password" class="md-nav__link">
+    <span class="md-ellipsis">
+      Retrieving a Password
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#managing-passwords" class="md-nav__link">
+    <span class="md-ellipsis">
+      Managing Passwords
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1830,24 +2009,98 @@
                   
 
 
-  <h1>prevent default</h1>
+  <h1>Pass Command Line</h1>
 
-<div><p>The <code>e.preventDefault()</code> method is a common practice in JavaScript when handling events, especially form submissions. It is used to prevent the default behavior associated with an event.</p>
-<p>In the context of a form submission:</p>
+<div><p><a class="glightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj242XMHsgWX3dj0bXvl6x-SK53Qd5FCfNhfQ1v1qybT7vkPxgpfWQvlbLg_x5CxosyAA-bJU1q4EH5fhAIs_HUcTXTcELVaf0StDHo9eOyfkTi3SlwhMasVejsLymRe7zRZGSsHykgZDge/s1600/pass-command-line-password-manager.png" data-type="image" data-width="auto" data-height="auto" data-title="command line password manager" data-desc-position="bottom"><img alt="command line password manager" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj242XMHsgWX3dj0bXvl6x-SK53Qd5FCfNhfQ1v1qybT7vkPxgpfWQvlbLg_x5CxosyAA-bJU1q4EH5fhAIs_HUcTXTcELVaf0StDHo9eOyfkTi3SlwhMasVejsLymRe7zRZGSsHykgZDge/s1600/pass-command-line-password-manager.png"></a></p>
+<h2 id="using-pass-password-store">Using <code>pass</code> (Password Store)</h2>
+<p>The <code>pass</code> <mark>utility</mark> is a password manager for Unix systems. It uses GPG for encryption.</p>
+<h3 id="installation">Installation</h3>
 <ul>
 <li>
-<p><strong>Without e.preventDefault()</strong>: If you don't prevent the default behavior of a form submission, the browser will perform its default action, which usually involves sending a request to the server, causing a page reload or navigation.</p>
-</li>
-<li>
-<p><strong>With e.preventDefault()</strong>: By calling <code>e.preventDefault()</code> within an event handler, you stop the default action associated with that event. In the case of a form submission, it prevents the browser from navigating away from the current page or triggering a full page reload.</p>
+<p>Install <code>pass</code>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>$<span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>pass
+</span></code></pre></div>
 </li>
 </ul>
-<div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>const handleSubmit = (e) =&gt; {
-</span><span id="__span-0-2"><a id="__codelineno-0-2" name="__codelineno-0-2" href="#__codelineno-0-2"></a>  e.preventDefault(); // Prevent the default form submission behavior
-</span><span id="__span-0-3"><a id="__codelineno-0-3" name="__codelineno-0-3" href="#__codelineno-0-3"></a>
-</span><span id="__span-0-4"><a id="__codelineno-0-4" name="__codelineno-0-4" href="#__codelineno-0-4"></a>  // Your custom logic for handling the form submission goes here
-</span><span id="__span-0-5"><a id="__codelineno-0-5" name="__codelineno-0-5" href="#__codelineno-0-5"></a>};
-</span></code></pre></div></div>
+<h3 id="setup">Setup</h3>
+<details class="tips" open="open">
+<summary>Tips</summary>
+<ul>
+<li>
+<p>Initialize the password store:</p>
+<p>You need to initialize <code>pass</code> with a GPG key. If you don't have a GPG key, you can generate one:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a>gpg<span class="w"> </span>--full-generate-key
+</span></code></pre></div>
+<p>Follow the prompts to generate your key. Once you have a GPG key, initialize the password store with the key ID (replace <code>GPG_ID</code> with your actual key ID, which you can find using <code>gpg --list-keys</code>):</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a>pass<span class="w"> </span>init<span class="w"> </span><span class="s2">"GPG_ID"</span>
+</span></code></pre></div>
+</li>
+</ul>
+</details>
+<h3 id="storing-a-password">Storing a Password</h3>
+<details class="example" open="open">
+<summary>Example</summary>
+<ul>
+<li>
+<p>Store a password:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a>pass<span class="w"> </span>insert<span class="w"> </span>path/to/your/password
+</span></code></pre></div>
+<p>For example:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>pass<span class="w"> </span>insert<span class="w"> </span>email/github
+</span></code></pre></div>
+<p>You will be prompted to enter and confirm the password.</p>
+</li>
+</ul>
+</details>
+<h3 id="retrieving-a-password">Retrieving a Password</h3>
+<details class="abstract" open="open">
+<summary>Abstract</summary>
+<ul>
+<li>
+<p>Retrieve a password:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>pass<span class="w"> </span>path/to/your/password
+</span></code></pre></div>
+<p>For example:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a>pass<span class="w"> </span>email/github
+</span></code></pre></div>
+<p>This command will display the stored password.</p>
+</li>
+</ul>
+</details>
+<h3 id="managing-passwords">Managing Passwords</h3>
+<details class="tip" open="open">
+<summary>Tip</summary>
+<ul>
+<li>
+<p>List all stored passwords:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>pass
+</span></code></pre></div>
+</li>
+<li>
+<p>Edit an existing password::</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>pass<span class="w"> </span>edit<span class="w"> </span>path/to/your/password
+</span></code></pre></div>
+<p>For example:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>pass<span class="w"> </span>edit<span class="w"> </span>email/github
+</span></code></pre></div>
+</li>
+<li>
+<p>Remove a stored password::</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>pass<span class="w"> </span>rm<span class="w"> </span>path/to/your/password
+</span></code></pre></div>
+<p>For example:</p>
+<div class="language-sh highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>pass<span class="w"> </span>rm<span class="w"> </span>email/github
+</span></code></pre></div>
+</li>
+</ul>
+</details>
+<hr>
+<h2 id="reference">Reference</h2>
+<ul>
+<li><a href="http://www.webupd8.org/2016/03/manage-passwords-from-command-line-with.html">manage-passwords-from-command-line</a></li>
+<li><a href="https://opensource.com/article/22/1/manage-passwords-linux-terminal">Manage your passwords in the Linux terminal</a></li>
+<li><a href="https://medium.com/@johnnymatthews/terminal-based-password-manager-ab82fd8f856a">Terminal Based Password Manager</a></li>
+</ul></div>
 
 
 
@@ -1883,7 +2136,7 @@
       <nav class="md-footer__inner md-grid" aria-label="Footer" >
         
           
-          <a href="../wordpress/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Wordpress">
+          <a href="../zsh/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Zsh">
             <div class="md-footer__button md-icon">
               
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
@@ -1893,20 +2146,20 @@
                 Previous
               </span>
               <div class="md-ellipsis">
-                Wordpress
+                Zsh
               </div>
             </div>
           </a>
         
         
           
-          <a href="../tricks/" class="md-footer__link md-footer__link--next" aria-label="Next: Tips &amp; Tricks">
+          <a href="../git/intro/" class="md-footer__link md-footer__link--next" aria-label="Next: Intro">
             <div class="md-footer__title">
               <span class="md-footer__direction">
                 Next
               </span>
               <div class="md-ellipsis">
-                Tips & Tricks
+                Intro
               </div>
             </div>
             <div class="md-footer__button md-icon">
