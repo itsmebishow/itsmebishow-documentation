@@ -58,14 +58,13 @@ nav:
 
   - Tools:
       - Intro: "tools/intro.md"
-      - Tmux:
-        - "tmux": "tools/tmux/tmux.md"
-      - SSH:
-        - "ssh": "tools/ssh/ssh.md"
+      - Tmux: "tools/tmux/tmux.md"
+      - SSH: "tools/ssh/ssh.md"
+      - Zsh: "tools/zsh.md"
+      - Pass Command Line: "tools/pass-command-line.md"
       - Git:
         - "Intro": "tools/git/intro.md"
         - "Git": "tools/git/git.md"
-        - "Vite": "tools/git/vite.md"
         - "Gitlab": "tools/git/gitlab.md"
         - "tricks": "tools/git/tricks.md"
         - "resource": "tools/git/resource.md"
