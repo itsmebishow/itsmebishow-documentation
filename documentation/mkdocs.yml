@@ -62,6 +62,7 @@ nav:
       - SSH: "tools/ssh/ssh.md"
       - Zsh: "tools/zsh.md"
       - Pass Command Line: "tools/pass-command-line.md"
+      - cronjobs: "tools/crobjob.md"
       - Git:
         - "Intro": "tools/git/intro.md"
         - "Git": "tools/git/git.md"
