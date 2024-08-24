@@ -169,3 +169,52 @@ Understanding the structure of a GitHub Actions workflow is key to effectively a
     -   Caching: Saves and restores dependencies to reduce build times.
     -   Example: Caches Node.js modules to speed up dependency installation.
 
+
+
+---
+
+
+```yaml
+# .github/workflows/python-app.yml
+name: Python application
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      - name: Add deadsnakes PPA and install Python 3.8
+        run: |
+          sudo add-apt-repository ppa:deadsnakes/ppa
+          sudo apt-get update
+          sudo apt-get install -y python3.8 python3.8-venv python3.8-dev
+          python3.8 -m pip install --upgrade pip
+          python3.8 -m pip install pipenv
+
+      - name: Verify Python and Pipenv installation
+        run: |
+          python3.8 --version
+          pipenv --version
+
+      - name: Install dependencies
+        run: |
+          pipenv --python python3.8 install --dev
+
+      - name: Run tests
+        run: |
+          pipenv run pytest
+
+```
+
+
