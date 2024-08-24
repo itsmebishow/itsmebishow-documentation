@@ -58,17 +58,24 @@ nav:
 
   - Tools:
       - Intro: "tools/intro.md"
-      - Tmux: "tools/tmux/tmux.md"
-      - SSH: "tools/ssh/ssh.md"
-      - Zsh: "tools/zsh.md"
-      - Pass Command Line: "tools/pass-command-line.md"
       - cronjobs: "tools/cronjob.md"
+      - SSH: "tools/ssh/ssh.md"
+
+      - Terminal:
+        - Tmux: "tools/terminal/tmux/tmux.md"
+        - Zsh: "tools/terminal/zsh.md"
+        - Pass Command Line: "tools/terminal/pass-command-line.md"
+      
       - Git:
         - "Intro": "tools/git/intro.md"
         - "Git": "tools/git/git.md"
         - "Gitlab": "tools/git/gitlab.md"
         - "tricks": "tools/git/tricks.md"
         - "resource": "tools/git/resource.md"
+
+      - Github Actions:
+        - "Intro": "tools/github-actions/intro.md"
+        - "Workflow": "tools/github-actions/workflow.md"
 
   - Native:
       - Intro: "code/react-native/intro.md"
