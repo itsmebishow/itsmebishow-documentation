@@ -6,7 +6,7 @@
 
 - :airplane_small: **[Career](./career/developer-plan.md)**
 
-- :simple-tmux: **[tmux](./tools/tmux/tmux.md)**
+- :simple-tmux: **[tmux](./tools/terminal/tmux/tmux.md)**
 
 - :octicons-video-24: **[Video](./video/vid.md)**
 
