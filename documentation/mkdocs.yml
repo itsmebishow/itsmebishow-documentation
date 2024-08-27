@@ -51,7 +51,12 @@ markdown_extensions:
   - pymdownx.keys
   - pymdownx.mark
   - pymdownx.tilde
+  - pymdownx.arithmatex
 
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
+
+  
 nav:
   - Blog:
       - blog/index.md
@@ -124,3 +129,4 @@ nav:
           - "Docker yml": "more/books/docker-compose.md"
 
       - Debian: "more/linux/debian.md"
+      - Formula: "more/formula.md"
