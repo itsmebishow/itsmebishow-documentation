@@ -3,7 +3,7 @@ drafts: false
 date: 2024-04-29
 ---
 
-# blog
+# Blog API
 
 
 For the API app to have its own urls.py to contain the paths for the API end points, we add the below to
