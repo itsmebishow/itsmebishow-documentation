@@ -991,6 +991,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-to-manage-nodejs-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Manage Node.js Versions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps-to-create-an-expo-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps to Create an Expo App
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-an-expo-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running an Expo Project
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#set-up-a-development-environment-without-expo-optional" class="md-nav__link">
     <span class="md-ellipsis">
       Set Up a Development Environment Without Expo (Optional)
@@ -2039,6 +2066,33 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#how-to-manage-nodejs-versions" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to Manage Node.js Versions
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#steps-to-create-an-expo-app" class="md-nav__link">
+    <span class="md-ellipsis">
+      Steps to Create an Expo App
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#running-an-expo-project" class="md-nav__link">
+    <span class="md-ellipsis">
+      Running an Expo Project
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#set-up-a-development-environment-without-expo-optional" class="md-nav__link">
     <span class="md-ellipsis">
       Set Up a Development Environment Without Expo (Optional)
@@ -2071,6 +2125,9 @@
 <ul>
 <li>
 <p>Install Expo CLI globally:</p>
+<div class="admonition bug">
+<p class="admonition-title">WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI:</p>
+</div>
 <div class="language-text highlight"><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a>npm install -g expo-cli
 </span></code></pre></div>
 </li>
@@ -2094,6 +2151,109 @@
 </li>
 </ul>
 </details>
+<details class="danger" open="open">
+<summary>Danger</summary>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>sudo<span class="w"> </span>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>expo-cli
+</span></code></pre></div>
+<p>WARNING: The legacy expo-cli does not support Node +17. Migrate to the new local Expo CLI: https://blog.expo.dev/the-new-expo-cli-f4250d8e3421.</p>
+<p>(node:605277) [DEP0040] DeprecationWarning: The <code>punycode</code> module is deprecated. Please use a userland alternative instead.
+(Use <code>node --trace-deprecation ...</code> to show where the warning was created)
+"help" is not an expo command. See "expo --help" for the full list of commands.</p>
+</details>
+<details class="success" open="open">
+<summary>Success</summary>
+<p>As of the latest updates, the <code>create-expo-app</code> tool, like other tools in the JavaScript ecosystem, is compatible with a range of Node.js versions. However, it's always a good practice to use a stable and supported Node.js version to avoid compatibility issues.</p>
+<blockquote>
+<p>Supported Node.js Versions for <code>create-expo-app</code></p>
+</blockquote>
+<ol>
+<li>
+<p><strong>LTS (Long-Term Support) Versions</strong>:</p>
+<p><code>create-expo-app</code> generally supports Node.js LTS versions. LTS versions are recommended for stability and compatibility with various tools. As of now, the commonly supported LTS versions are:</p>
+<ul>
+<li>Node.js 18.x (Gallium): This is the current LTS release.</li>
+<li>Node.js 16.x (Fermium): This was the previous LTS version.</li>
+</ul>
+</li>
+<li>
+<p><strong>Current Stable Version</strong>:</p>
+<p>While LTS versions are preferred, <code>create-expo-app</code> might also support the most recent stable Node.js versions. However, using the latest release (current version) might sometimes lead to unexpected issues if the tool or its dependencies are not yet fully compatible.</p>
+</li>
+</ol>
+<blockquote>
+<p>Recommendations</p>
+</blockquote>
+<ul>
+<li>
+<p>Use Node.js LTS Versions:</p>
+<p>For maximum compatibility and stability, use the current LTS version of Node.js. As of the latest guidance, Node.js 18.x is the recommended version.</p>
+</li>
+<li>
+<p>Verify Compatibility:</p>
+<p>Always check the <a href="#">Expo documentation</a> or the <a href="#">Expo CLI GitHub repository</a> for any specific version requirements or known issues related to Node.js versions.</p>
+</li>
+</ul>
+</details>
+<hr>
+<h2 id="how-to-manage-nodejs-versions">How to Manage Node.js Versions</h2>
+<p>To manage and switch between different Node.js versions, you can use Node Version Manager (nvm):</p>
+<ol>
+<li>
+<p>Install <code>nvm</code> (if not already installed):</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.4/install.sh | bash
+</span></code></pre></div>
+<p>Then load <code>nvm</code>:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="nb">source</span><span class="w"> </span>~/.nvm/nvm.sh
+</span></code></pre></div>
+</li>
+<li>
+<p>Install and Use a Specific Node.js Version:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a>nvm<span class="w"> </span>install<span class="w"> </span><span class="m">18</span>
+</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>nvm<span class="w"> </span>use<span class="w"> </span><span class="m">18</span>
+</span></code></pre></div>
+<p>Replace <code>18</code> with the desired version number.</p>
+</li>
+<li>
+<p>Check Installed Node.js Versions:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>nvm ls
+</span></code></pre></div>
+</li>
+</ol>
+<hr>
+<h2 id="steps-to-create-an-expo-app">Steps to Create an Expo App</h2>
+<ol>
+<li>
+<p>Ensure Node.js Version: Verify you are using a compatible Node.js version:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>node -v
+</span></code></pre></div>
+</li>
+<li>
+<p>Create a New Expo Project using create-expo-app:</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a>npx create-expo-app MyNewApp
+</span></code></pre></div>
+</li>
+</ol>
+<hr>
+<h2 id="running-an-expo-project">Running an Expo Project</h2>
+<p>If you used <code>npx</code> to create an Expo project using <code>create-expo-app</code> or a similar command, follow these steps:</p>
+<ol>
+<li>
+<p>Navigate to Your Project Directory</p>
+<div class="language-text highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a>cd MyNewApp
+</span></code></pre></div>
+<p>Replace <code>MyNewApp</code> with your project's directory name.</p>
+</li>
+<li>
+<p><strong>Start the Expo Development Server</strong></p>
+<p>Start the Expo development server by running:</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a>npm<span class="w"> </span>start
+</span></code></pre></div>
+<p>or</p>
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a>npx<span class="w"> </span>expo<span class="w"> </span>start
+</span></code></pre></div>
+<p>This will start the Expo development server and open the Expo DevTools in your browser. You will see a QR code that you can scan with the Expo Go app to view your project on your mobile device.</p>
+</li>
+</ol>
 <hr>
 <h2 id="set-up-a-development-environment-without-expo-optional">Set Up a Development Environment <code>Without Expo</code> (Optional)</h2>
 <p>If you prefer not to use Expo and want more control, you can set up a React Native development environment directly:</p>
@@ -2102,7 +2262,7 @@
 <ul>
 <li>
 <p><strong>Install Watchman</strong> (a tool used for watching changes in the filesystem):</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a>brew<span class="w"> </span>install<span class="w"> </span>watchman
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a>brew<span class="w"> </span>install<span class="w"> </span>watchman
 </span></code></pre></div>
 </li>
 </ul>
@@ -2110,33 +2270,33 @@
 <ul>
 <li>
 <p><strong>Install the React Native CLI globally:</strong></p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>react-native-cli
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a>npm<span class="w"> </span>install<span class="w"> </span>-g<span class="w"> </span>react-native-cli
 </span></code></pre></div>
 </li>
 <li>
 <p><strong>Create a New React Native Project</strong></p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="c1"># Create a new project using React Native CLI:</span>
-</span><span id="__span-6-2"><a id="__codelineno-6-2" name="__codelineno-6-2" href="#__codelineno-6-2"></a>npx<span class="w"> </span>react-native<span class="w"> </span>init<span class="w"> </span>my-react-native-app
-</span><span id="__span-6-3"><a id="__codelineno-6-3" name="__codelineno-6-3" href="#__codelineno-6-3"></a>
-</span><span id="__span-6-4"><a id="__codelineno-6-4" name="__codelineno-6-4" href="#__codelineno-6-4"></a><span class="c1"># Navigate to the Project Directory</span>
-</span><span id="__span-6-5"><a id="__codelineno-6-5" name="__codelineno-6-5" href="#__codelineno-6-5"></a><span class="nb">cd</span><span class="w"> </span>my-react-native-app
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="c1"># Create a new project using React Native CLI:</span>
+</span><span id="__span-16-2"><a id="__codelineno-16-2" name="__codelineno-16-2" href="#__codelineno-16-2"></a>npx<span class="w"> </span>react-native<span class="w"> </span>init<span class="w"> </span>my-react-native-app
+</span><span id="__span-16-3"><a id="__codelineno-16-3" name="__codelineno-16-3" href="#__codelineno-16-3"></a>
+</span><span id="__span-16-4"><a id="__codelineno-16-4" name="__codelineno-16-4" href="#__codelineno-16-4"></a><span class="c1"># Navigate to the Project Directory</span>
+</span><span id="__span-16-5"><a id="__codelineno-16-5" name="__codelineno-16-5" href="#__codelineno-16-5"></a><span class="nb">cd</span><span class="w"> </span>my-react-native-app
 </span></code></pre></div>
 </li>
 <li>
 <p><strong>Start the Development Server</strong></p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="c1"># Start the Metro bundler:</span>
-</span><span id="__span-7-2"><a id="__codelineno-7-2" name="__codelineno-7-2" href="#__codelineno-7-2"></a>npx<span class="w"> </span>react-native<span class="w"> </span>start
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="c1"># Start the Metro bundler:</span>
+</span><span id="__span-17-2"><a id="__codelineno-17-2" name="__codelineno-17-2" href="#__codelineno-17-2"></a>npx<span class="w"> </span>react-native<span class="w"> </span>start
 </span></code></pre></div>
 <p>In a new terminal window, run the app on iOS or Android:</p>
 <ul>
 <li>
 <p>iOS (macOS only):</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a>npx<span class="w"> </span>react-native<span class="w"> </span>run-ios
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a>npx<span class="w"> </span>react-native<span class="w"> </span>run-ios
 </span></code></pre></div>
 </li>
 <li>
 <p>Android:</p>
-<div class="language-bash highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a>npx<span class="w"> </span>react-native<span class="w"> </span>run-android
+<div class="language-bash highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a>npx<span class="w"> </span>react-native<span class="w"> </span>run-android
 </span></code></pre></div>
 </li>
 </ul>
