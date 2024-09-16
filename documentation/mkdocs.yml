@@ -128,5 +128,9 @@ nav:
           - "Jenkins Guide": "more/books/jenkins-guide.md"
           - "Docker yml": "more/books/docker-compose.md"
 
+      - Cryptography:
+          - "Intro": "more/cryptography/intro.md"
+          - "Steganography": "more/cryptography/steganography.md"
+
       - Debian: "more/linux/debian.md"
       - Formula: "more/formula.md"
