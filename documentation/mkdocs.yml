@@ -127,6 +127,9 @@ nav:
           - "Pocker Devops": "more/books/pocket-devops.md"
           - "Jenkins Guide": "more/books/jenkins-guide.md"
           - "Docker yml": "more/books/docker-compose.md"
+      
+      - University:
+          - "Intro": "more/university/intro.md"
 
       - Cryptography:
           - "Intro": "more/cryptography/intro.md"
