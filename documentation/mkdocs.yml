@@ -62,6 +62,12 @@ nav:
   - Blog:
       - blog/index.md
 
+  - Mobile Developer:
+    - React Native:
+      - Intro: "mobiledev/react-native/intro.md"
+      - Topic: "mobiledev/react-native/topic.md"
+      - Websocket: "mobiledev/react-native/websocket.md"
+
   - Tools:
       - Intro: "tools/intro.md"
       - cronjobs: "tools/cronjob.md"
@@ -83,16 +89,13 @@ nav:
         - "Intro": "tools/github-actions/intro.md"
         - "Workflow": "tools/github-actions/workflow.md"
 
-  - Native:
-      - Intro: "code/react-native/intro.md"
-      - Topic: "code/react-native/topic.md"
-      - Websocket: "code/react-native/websocket.md"
 
   - Career:
       - Developer: "career/developer-plan.md"
       - Roadmap: "career/study-technique.md"
       - Certification: "career/python-certification.md"
       - Tech Stack: "career/tech-stack.md"
+      - Formula: "career/formula.md"
       - Interview Question:
         - "Terminology": "career/interviewquestion/terminology.md"
         - "JavaScript": "career/interviewquestion/javascript.md"
@@ -114,13 +117,3 @@ nav:
       - "CSS & Bootstrap": "research/css-bootstrap.md"
       - "Repositories": "research/repositories.md"
       - "Reference": "research/reference.md"
-
-  - More:
-      - Introduction: "more/intro.md"
-      
-      - Mkdocs:
-          - "Intro": "more/mkdocs/intro.md"
-          - "Basic": "more/mkdocs/01-advanced-mkdocs.md"
-          - "Advanced": "more/mkdocs/02-advanced-mkdocs.md"
-      
-      - Formula: "more/formula.md"
