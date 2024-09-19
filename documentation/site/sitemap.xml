@@ -56,6 +56,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://itsmebishow.github.io/blog/2024/05/05/mkdoc/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://itsmebishow.github.io/blog/2024/01/21/managing-multiple-ssh-keys-for-secure-and-efficient-remote-access/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
@@ -96,6 +101,11 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
+         <loc>https://itsmebishow.github.io/career/formula/</loc>
+         <lastmod>2024-09-19</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
          <loc>https://itsmebishow.github.io/career/python-certification/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
@@ -131,42 +141,17 @@
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://itsmebishow.github.io/code/react-native/intro/</loc>
+         <loc>https://itsmebishow.github.io/mobiledev/react-native/intro/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://itsmebishow.github.io/code/react-native/topic/</loc>
+         <loc>https://itsmebishow.github.io/mobiledev/react-native/topic/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://itsmebishow.github.io/code/react-native/websocket/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://itsmebishow.github.io/more/formula/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://itsmebishow.github.io/more/intro/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://itsmebishow.github.io/more/mkdocs/01-advanced-mkdocs/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://itsmebishow.github.io/more/mkdocs/02-advanced-mkdocs/</loc>
-         <lastmod>2024-09-19</lastmod>
-         <changefreq>daily</changefreq>
-    </url>
-    <url>
-         <loc>https://itsmebishow.github.io/more/mkdocs/intro/</loc>
+         <loc>https://itsmebishow.github.io/mobiledev/react-native/websocket/</loc>
          <lastmod>2024-09-19</lastmod>
          <changefreq>daily</changefreq>
     </url>
