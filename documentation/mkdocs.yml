@@ -57,16 +57,16 @@ markdown_extensions:
 extra_javascript:
   - https://cdn.jsdelivr.net/npm/mathjax@2.7.7/MathJax.js?config=TeX-MML-AM_CHTML
 
-  
 nav:
   - Blog:
       - blog/index.md
 
   - Mobile Developer:
-    - React Native:
-      - Intro: "mobiledev/react-native/intro.md"
-      - Topic: "mobiledev/react-native/topic.md"
-      - Websocket: "mobiledev/react-native/websocket.md"
+      - Intro: "mobiledev/intro.md"
+      - React Native:
+          - Intro: "mobiledev/react-native/intro.md"
+          - Topic: "mobiledev/react-native/topic.md"
+          - Websocket: "mobiledev/react-native/websocket.md"
 
   - Tools:
       - Intro: "tools/intro.md"
@@ -74,33 +74,37 @@ nav:
       - SSH: "tools/ssh/ssh.md"
 
       - Terminal:
-        - Tmux: "tools/terminal/tmux/tmux.md"
-        - Zsh: "tools/terminal/zsh.md"
-        - Pass Command Line: "tools/terminal/pass-command-line.md"
-      
+          - Tmux: "tools/terminal/tmux/tmux.md"
+          - Zsh: "tools/terminal/zsh.md"
+          - Pass Command Line: "tools/terminal/pass-command-line.md"
+
       - Git:
-        - "Intro": "tools/git/intro.md"
-        - "Git": "tools/git/git.md"
-        - "Gitlab": "tools/git/gitlab.md"
-        - "tricks": "tools/git/tricks.md"
-        - "resource": "tools/git/resource.md"
+          - "Intro": "tools/git/intro.md"
+          - "Git": "tools/git/git.md"
+          - "Gitlab": "tools/git/gitlab.md"
+          - "tricks": "tools/git/tricks.md"
+          - "resource": "tools/git/resource.md"
 
       - Github Actions:
-        - "Intro": "tools/github-actions/intro.md"
-        - "Workflow": "tools/github-actions/workflow.md"
-
+          - "Intro": "tools/github-actions/intro.md"
+          - "Workflow": "tools/github-actions/workflow.md"
 
   - Career:
-      - Developer: "career/developer-plan.md"
-      - Roadmap: "career/study-technique.md"
-      - Certification: "career/python-certification.md"
-      - Tech Stack: "career/tech-stack.md"
+      - Study Technique: "career/study-technique.md"
       - Formula: "career/formula.md"
+      - Roadmap:
+          - Intro: "career/roadmap/intro.md"
+          - Developer: "career/roadmap/developer-plan.md"
+          - Tech Stack: "career/roadmap/tech-stack.md"
+      - Certification:
+          - Intro: "career/certification/intro.md"
+          - React: "career/certification/react.md"
+          - Python: "career/certification/python.md"
       - Interview Question:
-        - "Terminology": "career/interviewquestion/terminology.md"
-        - "JavaScript": "career/interviewquestion/javascript.md"
-        - "React": "career/interviewquestion/react.md"
-        - "Django": "career/interviewquestion/django.md"
+          - "Terminology": "career/interviewquestion/terminology.md"
+          - "JavaScript": "career/interviewquestion/javascript.md"
+          - "React": "career/interviewquestion/react.md"
+          - "Django": "career/interviewquestion/django.md"
 
   - Video:
       - Intro: "video/vid.md"
