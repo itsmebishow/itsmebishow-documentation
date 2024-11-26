@@ -1,10 +1,10 @@
-#  Home
+# Home
 
 <div class="grid cards" markdown>
 
 - :simple-git: **[Git](./tools/git/git.md)**
 
-- :airplane_small: **[Career](./career/developer-plan.md)**
+- :airplane_small: **[Career](./career/roadmap/developer-plan.md)**
 
 - :simple-tmux: **[tmux](./tools/terminal/tmux/tmux.md)**
 
@@ -14,7 +14,6 @@
 
 </div>
 
-
 !!! success "Skills vs Knowledge"
 
     > Knowledge
@@ -23,8 +22,8 @@
 
     > Skills
 
-    Have you ever heard the popular saying that goes like this: 
-    
+    Have you ever heard the popular saying that goes like this:
+
     once you learn how to ride a bicycle, you never forget? This is **because** ==riding a bicycle== is not knowledge; **it’s a skill**. An effective way to think about skills is that they are collections of memories that are **connected** to each other.
 
     The most important thing about skills for you to keep in mind is that although you can acquire knowledge by reading or listening, ==you can only develop skills== **by doing**.

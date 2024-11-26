@@ -70,7 +70,7 @@ nav:
 
   - Tools:
       - Intro: "tools/intro.md"
-      - cronjobs: "tools/cronjob.md"
+      - CronJob: "tools/cronjob.md"
       - SSH: "tools/ssh/ssh.md"
 
       - Terminal:
@@ -81,9 +81,11 @@ nav:
       - Git:
           - "Intro": "tools/git/intro.md"
           - "Git": "tools/git/git.md"
-          - "Gitlab": "tools/git/gitlab.md"
           - "tricks": "tools/git/tricks.md"
           - "resource": "tools/git/resource.md"
+
+      - Gitlab:
+          - "Intro": "tools/gitlab/intro.md"
 
       - Github Actions:
           - "Intro": "tools/github-actions/intro.md"

@@ -8,8 +8,7 @@
     - ==Practicing deliberately== to learn a tech
     - Implementing important good habits
 
-
-## Knowledge ***versus*** skills
+## Knowledge **_versus_** skills
 
 ??? info
 
@@ -29,10 +28,9 @@
 
     Even when just starting, you will clearly be better off including everything you did, even if they were just personal and volunteer projects, **because, at the end of the day, it is your experience and skills that really matter.**
 
-
 ---
 
-![Career Plan](../assets/developer-career-plan.png)
+![Career Plan](../../assets/developer-career-plan.png)
 
 ---
 
