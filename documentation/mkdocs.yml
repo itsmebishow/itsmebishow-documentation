@@ -2,6 +2,8 @@ site_name: itsmebishowthapa
 site_url: https://itsmebishow.github.io
 theme:
   name: material
+  logo: assets/logo/career.png
+  favicon: assets/logo/favicon.ico
   features:
     - navigation.tabs
     - navigation.top
