@@ -63,13 +63,6 @@ nav:
   - Blog:
       - blog/index.md
 
-  - Mobile Developer:
-      - Intro: "mobiledev/intro.md"
-      - React Native:
-          - Intro: "mobiledev/react-native/intro.md"
-          - Topic: "mobiledev/react-native/topic.md"
-          - Websocket: "mobiledev/react-native/websocket.md"
-
   - Tools:
       - Intro: "tools/intro.md"
       - CronJob: "tools/cronjob.md"
@@ -104,6 +97,8 @@ nav:
           - Intro: "career/certification/intro.md"
           - React: "career/certification/react.md"
           - Python: "career/certification/python.md"
+      - University:
+          - Intro: "career/university/intro.md"
       - Interview Question:
           - "Terminology": "career/interviewquestion/terminology.md"
           - "JavaScript": "career/interviewquestion/javascript.md"
@@ -114,6 +109,13 @@ nav:
       - Intro: "video/vid.md"
       - Productivity: "video/productivity.md"
       - Health: "video/health.md"
+
+  - Mobile Developer:
+      - Intro: "mobiledev/intro.md"
+      - React Native:
+          - Intro: "mobiledev/react-native/intro.md"
+          - Topic: "mobiledev/react-native/topic.md"
+          - Websocket: "mobiledev/react-native/websocket.md"
 
   - Research:
       - "AI": "research/ai.md"
