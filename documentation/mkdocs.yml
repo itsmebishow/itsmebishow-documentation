@@ -86,6 +86,10 @@ nav:
           - "Intro": "tools/github-actions/intro.md"
           - "Workflow": "tools/github-actions/workflow.md"
 
+      - Precommit:
+          - "Intro": "tools/precommit/intro.md"
+          - "Typescript": "tools/precommit/react-typescript.md"
+
   - Career:
       - Study Technique: "career/study-technique.md"
       - Formula: "career/formula.md"
