@@ -121,6 +121,11 @@ nav:
           - Topic: "mobiledev/react-native/topic.md"
           - Websocket: "mobiledev/react-native/websocket.md"
 
+  - Inspired:
+      - Intro: "inspiration/intro.md"
+      - Treasury of Quotes: "inspiration/quotes.md"
+      - Goal Setting: "inspiration/goal-setting.md"
+
   - Research:
       - "AI": "research/ai.md"
       - "Micro-Frontend": "research/micro-frontend.md"
