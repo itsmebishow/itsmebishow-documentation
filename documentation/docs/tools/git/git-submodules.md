@@ -90,3 +90,48 @@ If you don’t want to maintain a link to the original repo, you can simply copy
 | `git submodule init`                  | Initializes the submodules in your project   |
 | `git submodule status`                | Displays the current status of submodules    |
 | `git submodule deinit <path>`         | Removes a submodule from your project        |
+
+---
+
+## Deleting Submodule
+
+The majority of answers to this question are outdated, incomplete, or unnecessarily complex.
+
+A submodule cloned using `git 1.7.8` or newer will leave at most four traces of itself in your local repo. The process for removing those four traces is given by the three commands below:
+
+```bash
+# Remove the submodule entry from .git/config
+git submodule deinit -f path/to/submodule
+
+# Remove the submodule directory from the superproject's .git/modules directory
+rm -rf .git/modules/path/to/submodule
+
+# also remove the .git/config links for submodule
+
+
+# Remove the entry in .gitmodules and remove the submodule directory located at path/to/submodule
+git rm -f path/to/submodule
+```
+
+???+ quote "Note by Bishow"
+
+    1. deinit
+    2. remove the submodule from  `.git/config` file, links of the submodule.
+    3. `rm -rf .git/modules/<submodule_path>`: remove Submodule in the `git/modules` directory, removes the unnecessay module.
+    4. `git rm <submodule>`.
+
+    -   `git rm --cached <submodule_path>`: Remove the Submodule from the Git Index
+
+???+ tip "Summary of Key Commands:"
+
+    -   **Add a submodule**: `git submodule add <repository_url> <path>`
+    -   **Initialize submodules**: `git submodule init`
+    -   **Update submodules**: `git submodule update`
+    -   **Clone with submodules**: `git clone --recurse-submodules <repository_url>`
+    -   **Remove submodule**: `git submodule deinit <path> && git rm <path>`
+
+- [Git Submodules: Adding, Using, Removing, Updating](https://chrisjean.com/git-submodules-adding-using-removing-and-updating/)
+- [stackoverflow: ](https://stackoverflow.com/questions/1260748/how-do-i-remove-a-submodule/36593218#36593218)
+- [gist: delete_git_submodule](https://gist.github.com/myusuf3/7f645819ded92bda6677)
+- [geeksforgeeks: How to Remove a Submodule?](https://www.geeksforgeeks.org/how-to-remove-a-submodule/)
+- [Submodules: Core concept, workflows and tips ](https://www.atlassian.com/git/articles/core-concept-workflows-and-tips)
