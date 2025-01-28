@@ -65,7 +65,6 @@ nav:
 
   - Tools:
       - Intro: "tools/intro.md"
-      - CronJob: "tools/cronjob.md"
       - SSH: "tools/ssh/ssh.md"
 
       - Terminal:
@@ -89,6 +88,8 @@ nav:
 
       - Gitlab:
           - "Intro": "tools/gitlab/intro.md"
+
+      - CronJob: "tools/cronjob.md"
 
       - Precommit:
           - "Intro": "tools/precommit/intro.md"
