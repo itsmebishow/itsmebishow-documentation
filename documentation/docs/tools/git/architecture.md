@@ -1,4 +1,27 @@
-# Git
+# Architecture
+
+![Git Architecture ](https://cdn.hashnode.com/res/hashnode/image/upload/v1682773253794/fdf33f6b-7539-4277-a9f7-7d375dc43e80.png?auto=compress,format&format=webp)
+
+![https://dev.to/mollynem/git-github--workflow-fundamentals-5496](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvpxeexqyfvf4hw3zxtbn.png)
+
+![https://programming.earthonline.us/you-can-master-git-git-commands-with-these-diagrams-40a0b2f5cc42](https://miro.medium.com/v2/resize:fit:720/format:webp/1*eGdNATA_BGQcA1xUvc9Irg.png)
+
+![https://cloudstudio.com.au/2021/06/26/git-command/](https://cloudstudio.com.au/wp-content/uploads/2021/06/GitWorkflow-4-768x495.png)
+
+![https://blog.osteele.com/2008/05/my-git-workflow/](https://images.osteele.com/2008/git-transport.png)
+
+![https://imgur.com/oodiCnB](https://i.imgur.com/oodiCnB.png)
+
+- [Understanding the Git & Github Workflow ](https://jr0cket.co.uk/2013/08/getting-to-grips-with-git-understanding-the-simple-workflow.html.html)
+- [Git workflow diagram: reddit](https://www.reddit.com/r/git/comments/99ul9f/git_workflow_diagram_showcasing_the_role_of/?rdt=41318)
+
+**Workflow**
+
+![https://nexuslinkservices.com/git-workflow-in-software-development-life-cycle/](https://nexuslinkservices.com/wp-content/uploads/2019/01/Git-1.jpg)
+
+---
+
+## Git
 
 ```bash title="bash"
 $ mkdir ~/my_website
@@ -93,27 +116,6 @@ To delete a branch on both your `local` repository and `GitHub`, you can follow 
 
 ---
 
-## Images
-
-![https://dev.to/mollynem/git-github--workflow-fundamentals-5496](https://media2.dev.to/dynamic/image/width=800%2Cheight=%2Cfit=scale-down%2Cgravity=auto%2Cformat=auto/https%3A%2F%2Fdev-to-uploads.s3.amazonaws.com%2Fuploads%2Farticles%2Fvpxeexqyfvf4hw3zxtbn.png)
-
-![https://programming.earthonline.us/you-can-master-git-git-commands-with-these-diagrams-40a0b2f5cc42](https://miro.medium.com/v2/resize:fit:720/format:webp/1*eGdNATA_BGQcA1xUvc9Irg.png)
-
-![https://cloudstudio.com.au/2021/06/26/git-command/](https://cloudstudio.com.au/wp-content/uploads/2021/06/GitWorkflow-4-768x495.png)
-
-![https://blog.osteele.com/2008/05/my-git-workflow/](https://images.osteele.com/2008/git-transport.png)
-
-![https://imgur.com/oodiCnB](https://i.imgur.com/oodiCnB.png)
-
-- [Understanding the Git & Github Workflow ](https://jr0cket.co.uk/2013/08/getting-to-grips-with-git-understanding-the-simple-workflow.html.html)
-- [Git workflow diagram: reddit](https://www.reddit.com/r/git/comments/99ul9f/git_workflow_diagram_showcasing_the_role_of/?rdt=41318)
-
-**Workflow**
-
-![https://nexuslinkservices.com/git-workflow-in-software-development-life-cycle/](https://nexuslinkservices.com/wp-content/uploads/2019/01/Git-1.jpg)
-
----
-
 ## Reference
 
 - [Version Control with Git 3rd edition by Prem Kumar Ponuthorai & Jon Loeliger](https://www.amazon.com/Version-Control-Git-Collaborative-Development/dp/1492091197)
@@ -121,3 +123,5 @@ To delete a branch on both your `local` repository and `GitHub`, you can follow 
 - [git divergent branches and need to specify how to reconcile them](https://ioflood.com/blog/solved-git-error-you-have-divergent-branches-and-need-to-specify-how-to-reconcile-them/)
 - [Git Error: You have divergent branches and need to specify how to reconcile them.](https://medium.com/@rajlaxmii/git-error-you-have-divergent-branches-and-need-to-specify-how-to-reconcile-them-75e97bd8abd2)
 - [Pulling without specifying how to reconcile divergent branches is discouraged](https://stackoverflow.com/questions/62653114/how-can-i-deal-with-this-git-warning-pulling-without-specifying-how-to-reconci)
+
+- [Git and Github for Beginners 🔥](https://codingadda.hashnode.dev/git-and-github-for-beginners)

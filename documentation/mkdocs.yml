@@ -73,8 +73,9 @@ nav:
           - Pass Command Line: "tools/terminal/pass-command-line.md"
 
       - Git:
-          - "Intro": "tools/git/intro.md"
-          - "Git": "tools/git/git.md"
+          - "Overview": "tools/git/intro.md"
+          - "Architecture": "tools/git/architecture.md"
+          - "Staging": "tools/git/staging.md"
           - "tricks": "tools/git/tricks.md"
           - "resource": "tools/git/resource.md"
           - "Git Submodules": "tools/git/git-submodules.md"
