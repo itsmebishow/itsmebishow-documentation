@@ -2,7 +2,7 @@
 
 <div class="grid cards" markdown>
 
-- :simple-git: **[Git](./tools/git/git.md)**
+- :simple-git: **[Git](./tools/git/intro.md)**
 
 - :airplane_small: **[Career](./career/roadmap/developer-plan.md)**
 

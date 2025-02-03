@@ -69,6 +69,40 @@ The **staging area** (also called the **index**) is an intermediary area where G
 
 ---
 
+## Remove tracked file or directory
+
+To remove a tracked file in Git (i.e., a file that has already been added to the repository and committed), you need to follow these steps depending on whether you want to keep the file in your working directory or completely remove it from both Git and your local file system.
+
+1.  **Remove a Tracked File from Git but Keep It Locally (Untrack the File)**
+
+    ```bash
+    git rm --cached <file>
+    ```
+
+    If you don't want the file to be tracked again in the future, add it to the `.gitignore` file.
+
+2.  **Remove a Tracked File from Git and Locally (Delete the File)**
+
+    ```bash
+    git rm <file>
+    ```
+
+3.  **Remove All Tracked Files (For a Specific Directory)**
+
+    If you want to untrack all files in a directory, you can run:
+
+    ```bash
+    git rm --cached -r <directory>
+    ```
+
+???+ tip "Summary of Git Commands"
+
+    -   `git rm --cached <file>` – Untrack a file but keep it locally.
+    -   `git rm <file>` – Remove a file from Git and delete it locally.
+    -   `git commit -m "message"` – Commit the changes after removing files.
+
+---
+
 ## Reference
 
 - [Official: About - Staging Area](https://git-scm.com/about/staging-area)
