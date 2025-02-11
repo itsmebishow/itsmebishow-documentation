@@ -114,6 +114,7 @@ nav:
           - "JavaScript": "career/interviewquestion/javascript.md"
           - "React": "career/interviewquestion/react.md"
           - "Django": "career/interviewquestion/django.md"
+      - CV: "career/cv/overview.md"
 
   - Video:
       - Intro: "video/vid.md"
