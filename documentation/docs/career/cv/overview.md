@@ -83,3 +83,11 @@ Tip: ==Focus on achievements==, not just duties. Employers like to see results.
 ## ATS Online CV
 
 - [Enhancv.com](https://app.enhancv.com/)
+
+---
+
+### Why This Works for ATS
+
+✅ **Uses quantifiable results** (30% improvement, 40% reduction, 25% engagement increase, etc.)
+✅ **Incorporates ATS keywords** (Redux Toolkit, RTK Query, API performance, route protection, usability testing)
+✅ **Clear, action-driven language** (Led, Optimized, Developed, Conducted, Integrated)
