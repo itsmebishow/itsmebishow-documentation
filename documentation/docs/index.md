@@ -128,3 +128,13 @@ Which is More Important in MERN?
 In the **MERN stack, skills** are key when you're building projects. You’ll need practical skills to create, test, and deploy your apps. However, the **knowledge** of the underlying technologies (like understanding React hooks, how MongoDB queries work, or how Node.js handles asynchronous tasks) will give you the ability to write efficient, scalable, and maintainable code.
 
 In the beginning, focus on ==gaining skills== through small projects and practice, ==then deepen your== **knowledge** as you tackle more complex applications and optimizations.
+
+---
+
+## Books
+
+![Developer Career Masterplan by Heather VanCura, Bruno Souza](https://learning.oreilly.com/library/cover/9781801818704/750w/){ width="300" }
+
+---
+
+- [Developer Career Masterplan by Heather VanCura, Bruno Souza](https://www.oreilly.com/library/view/developer-career-masterplan/9781801818704/)
