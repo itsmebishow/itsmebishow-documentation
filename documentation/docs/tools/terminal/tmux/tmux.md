@@ -18,7 +18,6 @@ tmux runs a server/client architecture.
     tmux
     ```
 
-
 !!! tip "Getting Help with tmux by Reviewing Keyboard Shortcuts"
 
     ```
@@ -34,8 +33,7 @@ tmux runs a server/client architecture.
     <Prefix>, arrow down (hold)
     ```
 
-
-![https://thevaluable.dev/tmux-config-mouseless/](../../../assets/tmux-working-diagram.png)
+![https://thevaluable.dev/tmux-config-mouseless/](../../../assets/tmux/tmux-working-diagram.png)
 
 ## Installation
 
@@ -98,10 +96,10 @@ tmux runs a server/client architecture.
         <Prefix>, 0
         <Prefix>, 1
 
-        # To find a window 
+        # To find a window
         <Prefix>, f
 
-        # To display a visual menu of your windows 
+        # To display a visual menu of your windows
         <Prefix>, w
 
         # To close a window
@@ -132,8 +130,8 @@ tmux runs a server/client architecture.
         <Prefix> and the up arrow key
 
         # Pane Layouts
-        # To cycle through these layouts by pressing <PREFIX> SPACEBAR 
-        <PREFIX> SPACEBAR 
+        # To cycle through these layouts by pressing <PREFIX> SPACEBAR
+        <PREFIX> SPACEBAR
         ```
 
 ---
@@ -158,13 +156,13 @@ tmux runs a server/client architecture.
         # To enter copy mode
         <Prefix>, [
 
-        # To copy text into the paste buffer. 
+        # To copy text into the paste buffer.
         # This sets the start point of the selection.
 
         press Ctrl + Space bar (Space bar)
 
         # When you are satisfied with your selection,
-        simply press Meta + w (Enter) 
+        simply press Meta + w (Enter)
         # to copythe text and you will leave Copy mode immediately
         ```
 
@@ -207,7 +205,6 @@ tmux runs a server/client architecture.
 
         This mode allows third-party applications to interact with tmux through a text-only protocol.
 
-
 ---
 
 ## tmux `source-file`
@@ -247,14 +244,14 @@ tmux runs a server/client architecture.
     ```bash title="bash"
     ​$ tmux​ ​list-sessions
     # alias
-    $ ​tmux​ ​ls 
+    $ ​tmux​ ​ls
 
     ​$ tmux​ ​new-session ​ ​-s ​ ​basic​
     # alias
     $ ​tmux​ ​new​ ​-s ​ ​basic
 
     # By using the -n flag, we tell tmux to name the first window so we can identify it easily.
-    ​$ tmux​ ​new​ ​-s ​ ​windows ​ ​-n ​ ​shell 
+    ​$ tmux​ ​new​ ​-s ​ ​windows ​ ​-n ​ ​shell
 
     $ tmux rename-session -t old_name new_name
     # alias
@@ -274,7 +271,7 @@ tmux runs a server/client architecture.
 
 
     # list of sessions and select any of them.
-    <Prefix>, s 
+    <Prefix>, s
 
     # To attach last session, after you detach session
     $ tmux attach
@@ -341,10 +338,9 @@ Default Commands for `Sessions`, `Windows`, and `Panes`
         <Prefix>, space: Cycles through the various pane layouts.
         ```
 
-
 ---
 
-![https://www.rffuste.com/2023/04/17/oh-my-tmux-mapheet/](../../../assets/tmux-cheatsheet.png)
+![https://www.rffuste.com/2023/04/17/oh-my-tmux-mapheet/](../../../assets/tmux/tmux-cheatsheet.png)
 
 ## - tmux command mode
 
@@ -387,7 +383,6 @@ Default Commands for `Sessions`, `Windows`, and `Panes`
 
 ## Plugins
 
-
 !!! example "tmux plugin manager: `tpm`"
 
       Installing: [Tmux Plugin Manager](https://github.com/tmux-plugins/tpm) - `TPM`
@@ -426,7 +421,7 @@ a plugin that allows to easily **save and restore tmux environment** ==after sys
 
     === "Usage"
 
-        Default key bindings: 
+        Default key bindings:
 
         - ++"prefix"+"Ctrl-s"++ :  **save**
         - ++"prefix"+"Ctrl-r"++ :  **restore**
@@ -440,7 +435,6 @@ a plugin that allows to easily **save and restore tmux environment** ==after sys
     ```
 
     Hit `prefix + I` to fetch the plugin and source it. You should now be able to use the plugin.
-
 
 ### tmux-continuum
 
@@ -483,8 +477,6 @@ a plugin that **automates the saving and restoring** of the tmux environment.
 
         Hit `prefix + I` to fetch the plugin and source it. The plugin will automatically start "working" in the background, no action required.
 
-
-
 ---
 
 ## Reference
@@ -496,7 +488,6 @@ a plugin that **automates the saving and restoring** of the tmux environment.
 - [Getting Started with tmux by Victor Quinn, J.D.](https://www.amazon.com/Getting-Started-tmux-Victor-Quinn-ebook/dp/B00NW474T6)
 - [tmux Taster by Mark McDonnell](https://www.oreilly.com/library/view/tmux-taster/9781484207758/)
 - [tmux 2: Productive Mouse-Free Development by Brian P. Hogan](https://pragprog.com/titles/bhtmux2/tmux-2/)
-
 
 - ==Blog==
 - [Installing TPM](https://ostechnix.com/install-tmux-plugin-manager/)

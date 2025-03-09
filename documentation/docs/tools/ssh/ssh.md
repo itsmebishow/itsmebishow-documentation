@@ -63,12 +63,9 @@ To log in to an SSH remote server without entering a password, you can set up SS
 
 With **SSH key-based authentication** set up, you can now log in to your remote server `without entering a password`, provided you have the corresponding private key stored on your local machine.
 
-
 ---
 
-
 ![SSH commands](../../assets/video/GPygmfeXkAABEOX.jpeg)
-
 
 ---
 

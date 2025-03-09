@@ -30,7 +30,7 @@
 
 ---
 
-![Career Plan](../../assets/developer-career-plan.png)
+![Career Plan](../../assets/career/developer-career-plan.png)
 
 ---
 

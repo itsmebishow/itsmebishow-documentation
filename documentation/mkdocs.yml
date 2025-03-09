@@ -19,8 +19,9 @@ plugins:
   - search
   - glightbox:
       auto_caption: true
-  - tags:
-      tags_file: tags.md
+  - tags
+
+#   tags_file: tags.md
 
 extra:
   mailto: itsmebishowthapa@gmail.com

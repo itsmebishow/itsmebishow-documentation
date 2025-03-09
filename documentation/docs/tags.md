@@ -1,3 +1,3 @@
 # Tools
 
-- [Tmux](#tmux)
+<!-- - [Tmux](#tmux) -->
