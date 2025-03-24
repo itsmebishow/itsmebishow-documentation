@@ -117,6 +117,8 @@ nav:
           - "Django": "career/interviewquestion/django.md"
       - CV: "career/cv/overview.md"
       - LinkedIn: "career/linkedin.md"
+      - Reddit: "career/reddit/intro.md"
+      - Youtube: "career/youtube/intro.md"
 
   - Video:
       - Intro: "video/vid.md"
