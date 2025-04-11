@@ -14,6 +14,10 @@
 
 </div>
 
+---
+
+## Skills vs Knowledge
+
 !!! success "Skills vs Knowledge"
 
     > Knowledge
@@ -49,6 +53,8 @@ In summary:
 
 ---
 
+## Which is improtant
+
 !!! tip "which is more important"
 
 Both knowledge and skills are important, but their significance often depends on the context. Here’s a breakdown:
@@ -65,6 +71,8 @@ In many cases, a combination of both is needed. For example:
 Ultimately, while knowledge can give you a solid theoretical understanding, skills allow you to turn that knowledge into action. Which do you think is more critical in your field or for your goals?
 
 ---
+
+## In Programming
 
 !!! question "Which is more important in programming?"
 
@@ -87,14 +95,16 @@ In programming, both **knowledge** and **skills** are incredibly important, ==bu
 
 However, knowledge is ==critical== for long-term growth. As you continue programming, your deep understanding of how things work (like memory management, performance trade-offs, or new programming paradigms) will shape your ability to tackle increasingly complex challenges.
 
-Conclusion:
+???+ success "Conclusion"
 
-- **Skills** are essential for ==getting things done==, and they improve through practice and hands-on experience.
-- **Knowledge** is necessary to ==solve problems intelligently== and to grow as a developer.
+    - **Skills** are essential for ==getting things done==, and they improve through practice and hands-on experience.
+    - **Knowledge** is necessary to ==solve problems intelligently== and to grow as a developer.
 
-==For most people==, building **skills** will take precedence at the start, but investing in **knowledge** over time is key to long-term success and mastery in programming.
+    ==For most people==, building **skills** will take precedence at the start, but investing in **knowledge** over time is key to long-term success and mastery in programming.
 
 ---
+
+## Learning MERN STACK
 
 !!! success "Learning MERN Stack"
 
@@ -128,6 +138,141 @@ Which is More Important in MERN?
 In the **MERN stack, skills** are key when you're building projects. You’ll need practical skills to create, test, and deploy your apps. However, the **knowledge** of the underlying technologies (like understanding React hooks, how MongoDB queries work, or how Node.js handles asynchronous tasks) will give you the ability to write efficient, scalable, and maintainable code.
 
 In the beginning, focus on ==gaining skills== through small projects and practice, ==then deepen your== **knowledge** as you tackle more complex applications and optimizations.
+
+---
+
+## 80/20 Principle while Learning
+
+---
+
+## Others
+
+The 80/20 Principle (Pareto Principle) is a great starting point, but there are several other frameworks and strategies that can help optimize learning in programming or any new framework. Here are some alternatives you can consider:
+
+### 1. The Feynman Technique
+
+- **What it is**: Named after physicist Richard Feynman, this technique emphasizes teaching what you’ve learned in simple terms. If you can explain a concept to a beginner, you truly understand it.
+
+- **How to apply**: After learning a concept, try explaining it to someone (or even yourself) as if they have no prior knowledge. If you get stuck or can’t explain it clearly, it’s a sign you need to revisit that concept.
+
+- **Benefit**: Forces deeper understanding and can highlight gaps in your knowledge.
+
+---
+
+### 2. The Learning Pyramid
+
+- **What it is**: This is a model that shows how we retain information. It suggests that the most effective learning happens when we actively engage with material (like teaching, practicing, or discussing it).
+
+- **How to apply**: Start by actively building projects, solving problems, or collaborating with others. The more you interact with what you’re learning, the more effectively you retain it.
+
+- **Benefit**: Encourages hands-on learning, which is often more effective than passive methods like reading or watching videos.
+
+---
+
+### 3. The Eisenhower Matrix (Urgent vs. Important)
+
+- **What it is**: This matrix helps prioritize tasks based on urgency and importance.
+
+- **How to apply**: Break down your programming learning goals or tasks into four categories:
+
+      - ==Urgent and Important==: Bugs or urgent issues that need fixing.
+      - ==Important, Not Urgent==: Long-term learning (e.g., mastering a framework).
+      - ==Urgent, Not Important==: Interruptions or low-priority tasks (e.g., optimizing code that isn’t critical).
+      - ==Not Urgent, Not Important==: Distractions (e.g., random exploration that isn’t aligned with your current goals).
+
+- **Benefit**: Helps you focus on what will have the most significant impact on your learning progress.
+
+---
+
+### 4. Deliberate Practice
+
+- **What it is**: A method of learning that emphasizes practicing specific skills in a targeted way to improve performance over time.
+
+- **How to apply**: Identify areas in your programming skills that need improvement (e.g., debugging, understanding algorithms). Focus practice on these areas with feedback, and gradually increase difficulty.
+
+- **Benefit**: Maximizes skill improvement by focusing on weaknesses and challenging yourself.
+
+---
+
+### 5. Pomodoro Technique
+
+- **What it is**: A time management method where you break work into 25-minute intervals, separated by short breaks.
+
+- **How to apply**: Work on programming tasks in 25-minute sessions (called "Pomodoros"), then take a 5-minute break. After four Pomodoros, take a longer break (15–30 minutes).
+
+- **Benefit**: Prevents burnout, boosts focus, and encourages consistent progress.
+
+---
+
+### 6. Spaced Repetition
+
+- **What it is**: A learning technique based on increasing intervals of review to help with long-term retention of information.
+
+- **How to apply**: Use tools like Anki or other spaced repetition apps to review programming concepts, syntax, or patterns at increasing intervals to keep them fresh in your memory.
+
+- **Benefit**: Helps you remember concepts for the long term by reviewing them at strategic intervals.
+
+---
+
+### 7. The "Just-In-Time" Learning Principle
+
+- **What it is**: This principle suggests you only learn what you need at the moment you need it.
+
+- **How to apply**: Rather than learning everything upfront, focus on learning concepts as you encounter challenges in your project or framework. This prevents information overload and keeps your learning directly relevant.
+
+- **Benefit**: Allows you to apply knowledge immediately, increasing motivation and contextual understanding.
+
+---
+
+### 8. The 5 Whys
+
+- **What it is**: A problem-solving technique used to explore the cause-and-effect relationships underlying a particular problem.
+
+- **How to apply**: When you encounter an issue in your code or project, ask "Why?" five times to identify the root cause of the problem, not just the symptoms.
+
+- **Benefit**: Helps you understand the deeper issues in your code or framework, leading to better debugging and problem-solving.
+
+---
+
+### 9. Microlearning
+
+- **What it is**: A strategy that breaks down learning into small, digestible chunks that can be consumed in a short amount of time.
+
+- **How to apply**: Instead of learning long stretches of material, focus on small, bite-sized lessons that you can complete in 10–20 minutes. Use resources like interactive coding platforms (e.g., freeCodeCamp, Exercism).
+
+- **Benefit**: Makes learning less overwhelming and can be easily incorporated into daily life.
+
+---
+
+### 10. Rubric-based Learning
+
+- **What it is**: Use predefined criteria or rubrics to track your progress and evaluate your work.
+
+- **How to apply**: Create a rubric for a specific programming skill or project, listing different levels of proficiency and key concepts. Assess yourself regularly against the rubric and work toward advancing to the next level.
+
+- **Benefit**: Provides clear goals and measurable progress, helping you stay on track.
+
+---
+
+### 11. Growth Mindset
+
+- **What it is**: This mindset emphasizes the belief that abilities and intelligence can be developed through dedication and hard work.
+
+- **How to apply**: When facing challenges or struggling with a difficult programming concept, remind yourself that it’s a learning opportunity, and success comes from effort and persistence, not innate ability.
+
+- **Benefit**: Keeps you motivated and helps overcome setbacks, particularly in difficult learning situations.
+
+---
+
+### 12. The "One Thing" Framework
+
+- **What it is**: A productivity strategy that suggests focusing on the single most important task that will make the biggest impact.
+
+- **How to apply**: When learning a new framework or programming language, choose one thing to focus on at a time (e.g., mastering async programming or learning a key library) rather than scattering your attention across multiple areas.
+
+- **Benefit**: Deepens mastery by concentrating your effort on what matters most at that moment.
+
+By combining some of these strategies, you can structure your learning in a way that helps you absorb and retain more programming knowledge while avoiding overwhelm. The key is to find what works best for you and adapt it as needed.
 
 ---
 
