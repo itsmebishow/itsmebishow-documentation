@@ -19,7 +19,7 @@ plugins:
   - search
   - glightbox:
       auto_caption: true
-  - tags
+#   - tags
 
 #   tags_file: tags.md
 
@@ -66,7 +66,10 @@ nav:
 
   - Tools:
       - Intro: "tools/intro.md"
-      - SSH: "tools/ssh/ssh.md"
+
+      - SSH:
+          - Overview: "tools/ssh/ssh.md"
+          - ssh-keygen: "tools/ssh/ssh-keygen.md"
 
       - Terminal:
           - Tmux: "tools/terminal/tmux/tmux.md"
