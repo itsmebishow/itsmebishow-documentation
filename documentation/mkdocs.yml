@@ -72,7 +72,9 @@ nav:
           - ssh-keygen: "tools/ssh/ssh-keygen.md"
 
       - Terminal:
-          - Tmux: "tools/terminal/tmux/tmux.md"
+          - Tmux:
+              - Overview: "tools/terminal/tmux/tmux.md"
+              - status-right: "tools/terminal/tmux/status-right.md"
           - Zsh: "tools/terminal/zsh.md"
           - Pass Command Line: "tools/terminal/pass-command-line.md"
 
