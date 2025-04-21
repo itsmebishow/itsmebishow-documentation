@@ -152,3 +152,6 @@ nav:
       - "CSS & Bootstrap": "research/css-bootstrap.md"
       - "Repositories": "research/repositories.md"
       - "Reference": "research/reference.md"
+
+      - Interview:
+          - React Dev: "research/interview/react-dev.md"
