@@ -84,7 +84,10 @@ nav:
           - "Staging": "tools/git/staging.md"
           - "tricks": "tools/git/tricks.md"
           - "resource": "tools/git/resource.md"
-          - "Git Submodules": "tools/git/git-submodules.md"
+
+          - Submodule:
+              - Overview: "tools/git/submodule/git-submodules.md"
+              - Solved: "tools/git/submodule/solved.md"
 
       - Github:
           - Organization: "tools/github/github-organization.md"
@@ -150,8 +153,4 @@ nav:
       - "prevent default": "research/js-prevent-default.md"
       - "Tips & Tricks": "research/tricks.md"
       - "CSS & Bootstrap": "research/css-bootstrap.md"
-      - "Repositories": "research/repositories.md"
       - "Reference": "research/reference.md"
-
-      - Interview:
-          - React Dev: "research/interview/react-dev.md"
