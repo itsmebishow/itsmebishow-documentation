@@ -88,6 +88,7 @@ nav:
           - Submodule:
               - Overview: "tools/git/submodule/git-submodules.md"
               - Solved: "tools/git/submodule/solved.md"
+              - Common Error: "tools/git/submodule/common-issue.md"
 
       - Github:
           - Organization: "tools/github/github-organization.md"
