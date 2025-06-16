@@ -134,13 +134,6 @@ nav:
       - Productivity: "video/productivity.md"
       - Health: "video/health.md"
 
-  - Mobile Developer:
-      - Intro: "mobiledev/intro.md"
-      - React Native:
-          - Intro: "mobiledev/react-native/intro.md"
-          - Topic: "mobiledev/react-native/topic.md"
-          - Websocket: "mobiledev/react-native/websocket.md"
-
   - Inspired:
       - Intro: "inspiration/intro.md"
       - Treasury of Quotes: "inspiration/quotes.md"
